@@ -26,17 +26,17 @@ When installing the DAC-PL-system, you should have pre-installed
 
 5. **Change** to "jgralab" and **execute**
 ```
-        ant
+	ant
 ```
-
+        
    This step establishes JGraLab as the _modeling infrastructure_ of DAC-PL.
 
 6. **Change** to "dac-meta-model" and **execute**
 ```
-	    ant -buildfile build-metamodel-api.xml
+	ant -buildfile build-metamodel-api.xml
 ```
-	
-   This step creates the _language-specific infrastructure_ which is an API generated from the (SUM)-metamodel, offering language-specific create/read/update/delete (CRUD) operations on models.
+
+This step creates the _language-specific infrastructure_ which is an API generated from the (SUM)-metamodel, offering language-specific create/read/update/delete (CRUD) operations on models.
 
 7. **Import** all DACPL-directories as plugins into "dac-pl".
 
