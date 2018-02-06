@@ -1,0 +1,10 @@
+TODO:
+=============
+
+REFACTORING
++ dac-controller	// Define facades.
++ dac-model-repository	// Define facades.
+
++ dac-compiler	// Can operations be part of facade, too?
+
++ dac-simulation-2d	// Move render operations to facade, too?

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	This ANT file calls a couple of JGralab internal tools like:
+	
+	- de.uni_koblenz.jgralab.utilities.rsa2tg.Rsa2Tg
+	- de.uni_koblenz.jgralab.utilities.tgschema2java.TgSchema2Java
+	
+	to generate java files for the feature meta-model used in my PhD thesis.
+	The JGralab tools are meant to be imported as an external eclipse
+	project dependency.
+	
+	This ANT file generates a "feature-meta-model-api.jar" file, which
+	contains all compiled classes to be used in other projects.
+	
+	Note, that the project using this ANT file needs to use the JDK,
+	not the JRE to be able to call javac.
+	
+	Mahdi Derakhshanmanesh, 2014
+	manesh@uni-koblenz.de
+-->
+<project name="dac-meta-model" basedir="." default="build">
+	<!-- Clearly define the relative source and output locations. -->
+    <property file="local.properties" />
+	<property name="src.dir" location="./gen-src" />
+	<property name="projectname" value="dac-meta-model" />
+	<property name="main" value="DACMetaModel" />
+	<property name="xmi.schema.file" location="DACMetaModel.xmi" />
+	<property name="schema.file" location="./DACMetaModel.rsa.tg" />
+
+	<!-- Do not delete the MANIFEST.MF file -->
+	<property name="manifest.static" value="true" />
+	
+	<import file="../jgralab/common.xml" />
+	
+	<path id="classpathExtension">
+		
+	</path>
+	
+</project>

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://schema.omg.org/spec/UML/2.2" xsi:schemaLocation="http://schema.omg.org/spec/UML/2.2 http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_lN-bwPwlEeW24_XgaxFPaw" name="de.uni_koblenz.ist.manesh.phd.case_studies.dac.DACMetaModel">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_lN-bwfwlEeW24_XgaxFPaw">
+    <importedPackage xmi:type="uml:Model" href="http://schema.omg.org/spec/UML/2.2/uml.xml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_lN-bwvwlEeW24_XgaxFPaw" name="NamedElement" isAbstract="true">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_lN-bw_wlEeW24_XgaxFPaw" name="uniqueName" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_lN-bxPwlEeW24_XgaxFPaw" name="visibleName" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_lN-bxfwlEeW24_XgaxFPaw" name="DacGraph">
+    <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lN-bxvwlEeW24_XgaxFPaw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lN-bx_wlEeW24_XgaxFPaw" key="graphclass"/>
+      </eAnnotations>
+    </xmi:Extension>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_lN-byPwlEeW24_XgaxFPaw" name="rooms">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_lN-byfwlEeW24_XgaxFPaw" annotatedElement="_lN-bzvwlEeW24_XgaxFPaw">
+      <body>&lt;p>This assumes a directional view on doors and rooms.&lt;br>&lt;/br>From and To are purely conceptual and depend on the&lt;br>&lt;/br>perspective (side of Door).&lt;/p></body>
+    </ownedComment>
+    <ownedRule xmi:type="uml:Constraint" xmi:id="_lN-byvwlEeW24_XgaxFPaw" constrainedElement="_lN-bwvwlEeW24_XgaxFPaw">
+      <specification xmi:type="uml:OpaqueExpression" xmi:id="_lN-by_wlEeW24_XgaxFPaw">
+        <language></language>
+        <body>&quot;Each name of a NamedElement must be unique in the model.&quot;&#xD;&#xA;&quot;forall ne1, ne2 : V{rooms.NamedElement} @ isDefined(ne1.name) and isDefined(ne2.name) and ne1.name &lt;> ne2.name&quot;&#xD;&#xA;&quot;from n1, n2 : V{rooms.NamedElement} with isDefined(n1.name) and isDefined(n2.name) and n1.name &lt;> n2.name report n1, n2. end&quot;</body>
+      </specification>
+    </ownedRule>
+    <ownedRule xmi:type="uml:Constraint" xmi:id="_lN-bzPwlEeW24_XgaxFPaw" constrainedElement="_lN-bwvwlEeW24_XgaxFPaw">
+      <specification xmi:type="uml:OpaqueExpression" xmi:id="_lN-bzfwlEeW24_XgaxFPaw">
+        <language></language>
+        <body>&quot;The name of a NamedElement may not be null.&quot;&#xD;&#xA;&quot;forall ne : V{rooms.NamedElement} @ isDefined(ne)&quot;&#xD;&#xA;&quot;from ne : V{rooms.NamedElement} with isUndefined(ne) report ne end&quot;</body>
+      </specification>
+    </ownedRule>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lN-bzvwlEeW24_XgaxFPaw" name="Door">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lN-bz_wlEeW24_XgaxFPaw" general="_lN_CyPwlEeW24_XgaxFPaw"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_lN-b0PwlEeW24_XgaxFPaw" general="_lN-bwvwlEeW24_XgaxFPaw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN-b0fwlEeW24_XgaxFPaw" name="locked" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN-b0vwlEeW24_XgaxFPaw" name="vertical" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN-b0_wlEeW24_XgaxFPaw" name="cardReaderSensor" visibility="private" type="_lN_CtPwlEeW24_XgaxFPaw" association="_lN_CwfwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN-b1PwlEeW24_XgaxFPaw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN-b1fwlEeW24_XgaxFPaw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN-b1vwlEeW24_XgaxFPaw" name="sourceRoom" visibility="private" type="_lN-b3PwlEeW24_XgaxFPaw" association="_lN_Cy_wlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN-b1_wlEeW24_XgaxFPaw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN-b2PwlEeW24_XgaxFPaw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN-b2fwlEeW24_XgaxFPaw" name="targetRoom" visibility="private" type="_lN-b3PwlEeW24_XgaxFPaw" association="_lN_Cz_wlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN-b2vwlEeW24_XgaxFPaw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN-b2_wlEeW24_XgaxFPaw" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lN-b3PwlEeW24_XgaxFPaw" name="Room">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lN-b3fwlEeW24_XgaxFPaw" general="_lN_CyPwlEeW24_XgaxFPaw"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_lN-b3vwlEeW24_XgaxFPaw" general="_lN-bwvwlEeW24_XgaxFPaw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN-b3_wlEeW24_XgaxFPaw" name="width" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN_CsPwlEeW24_XgaxFPaw" name="height" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN_CsfwlEeW24_XgaxFPaw" name="sensors" visibility="private" type="_lN_Cw_wlEeW24_XgaxFPaw" association="_lN_CwvwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN_CsvwlEeW24_XgaxFPaw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN_Cs_wlEeW24_XgaxFPaw"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lN_CtPwlEeW24_XgaxFPaw" name="CardReaderSensor">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lN_CtfwlEeW24_XgaxFPaw" general="_lN_CvfwlEeW24_XgaxFPaw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN_CtvwlEeW24_XgaxFPaw" name="protectedDoor" visibility="private" type="_lN-bzvwlEeW24_XgaxFPaw" association="_lN_CwfwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN_Ct_wlEeW24_XgaxFPaw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN_CuPwlEeW24_XgaxFPaw" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lN_CufwlEeW24_XgaxFPaw" name="MidRangeRFIDSensor">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lN_CuvwlEeW24_XgaxFPaw" general="_lN_Cw_wlEeW24_XgaxFPaw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lN_Cu_wlEeW24_XgaxFPaw" name="CameraSensor">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lN_CvPwlEeW24_XgaxFPaw" general="_lN_Cw_wlEeW24_XgaxFPaw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lN_CvfwlEeW24_XgaxFPaw" name="Sensor" isAbstract="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lN_CvvwlEeW24_XgaxFPaw" general="_lN_CyPwlEeW24_XgaxFPaw"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_lN_Cv_wlEeW24_XgaxFPaw" general="_lN-bwvwlEeW24_XgaxFPaw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN_CwPwlEeW24_XgaxFPaw" name="productId" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lN_CwfwlEeW24_XgaxFPaw" name="HasCardReaderSensor" memberEnd="_lN-b0_wlEeW24_XgaxFPaw _lN_CtvwlEeW24_XgaxFPaw"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lN_CwvwlEeW24_XgaxFPaw" name="HasRoomSensor" memberEnd="_lN_CsfwlEeW24_XgaxFPaw _lN_CxfwlEeW24_XgaxFPaw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lN_Cw_wlEeW24_XgaxFPaw" name="RoomSensor" isAbstract="true">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lN_CxPwlEeW24_XgaxFPaw" general="_lN_CvfwlEeW24_XgaxFPaw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN_CxfwlEeW24_XgaxFPaw" name="protectedRoom" visibility="private" type="_lN-b3PwlEeW24_XgaxFPaw" association="_lN_CwvwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN_CxvwlEeW24_XgaxFPaw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN_Cx_wlEeW24_XgaxFPaw" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lN_CyPwlEeW24_XgaxFPaw" name="Positionable" isAbstract="true">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN_CyfwlEeW24_XgaxFPaw" name="x" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN_CyvwlEeW24_XgaxFPaw" name="y" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#Integer"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lN_Cy_wlEeW24_XgaxFPaw" name="From" memberEnd="_lN-b1vwlEeW24_XgaxFPaw _lN_CzPwlEeW24_XgaxFPaw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lN_CzPwlEeW24_XgaxFPaw" name="entries" visibility="private" type="_lN-bzvwlEeW24_XgaxFPaw" association="_lN_Cy_wlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN_CzfwlEeW24_XgaxFPaw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN_CzvwlEeW24_XgaxFPaw"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lN_Cz_wlEeW24_XgaxFPaw" name="To" memberEnd="_lN-b2fwlEeW24_XgaxFPaw _lN_C0PwlEeW24_XgaxFPaw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lN_C0PwlEeW24_XgaxFPaw" name="exits" visibility="private" type="_lN-bzvwlEeW24_XgaxFPaw" association="_lN_Cz_wlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN_C0fwlEeW24_XgaxFPaw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN_C0vwlEeW24_XgaxFPaw"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lN_C0_wlEeW24_XgaxFPaw" name="Rooms">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN_C1PwlEeW24_XgaxFPaw" name="rooms" visibility="private" type="_lN-b3PwlEeW24_XgaxFPaw" aggregation="composite" association="_lN_C1_wlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN_C1fwlEeW24_XgaxFPaw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN_C1vwlEeW24_XgaxFPaw"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lN_C1_wlEeW24_XgaxFPaw" memberEnd="_lN_C1PwlEeW24_XgaxFPaw _lN_C2PwlEeW24_XgaxFPaw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lN_C2PwlEeW24_XgaxFPaw" name="roomModel" visibility="private" type="_lN_C0_wlEeW24_XgaxFPaw" association="_lN_C1_wlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN_C2fwlEeW24_XgaxFPaw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN_C2vwlEeW24_XgaxFPaw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_lN_C2_wlEeW24_XgaxFPaw" name="security"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_lN_C3PwlEeW24_XgaxFPaw" name="PrimitiveTypes">
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_lN_C3fwlEeW24_XgaxFPaw" name="Double"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_lN_C3vwlEeW24_XgaxFPaw" name="Long"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_lN_C3_wlEeW24_XgaxFPaw" name="List&lt;String>"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_lN_C4PwlEeW24_XgaxFPaw" name="eca_rules">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_lN_C4fwlEeW24_XgaxFPaw" annotatedElement="_lN_C9vwlEeW24_XgaxFPaw">
+      <body>&lt;p>The&amp;nbsp;&quot;params&quot;&amp;nbsp;attribute may contain property paths. To differentiate them from pure string values,&lt;br>&lt;/br>they always start with an &quot;__&quot;.&lt;/p></body>
+    </ownedComment>
+    <ownedRule xmi:type="uml:Constraint" xmi:id="_lN_C4vwlEeW24_XgaxFPaw" constrainedElement="_lN_pw_wlEeW24_XgaxFPaw">
+      <specification xmi:type="uml:OpaqueExpression" xmi:id="_lN_C4_wlEeW24_XgaxFPaw">
+        <language></language>
+        <body>&quot;There may be at most one event object at any time&quot;&#xD;&#xA;&quot;count(V{eca_rules.EventObject}) &lt;= 1&quot;&#xD;&#xA;&quot;from e : V{eca_rules.EventObject} reportSet e end&quot;</body>
+      </specification>
+    </ownedRule>
+    <ownedRule xmi:type="uml:Constraint" xmi:id="_lN_C5PwlEeW24_XgaxFPaw" constrainedElement="_lN-bwvwlEeW24_XgaxFPaw">
+      <specification xmi:type="uml:OpaqueExpression" xmi:id="_lN_C5fwlEeW24_XgaxFPaw">
+        <language></language>
+        <body>&quot;A NamedElement's name may not start with __ (two underscores)&quot;&#xD;&#xA;&quot;forall ne : V{rooms.NamedElement} @ not(startsWith('__', ne.name))&quot;&#xD;&#xA;&quot;from ne : V{rooms.NamedElement} with startsWith('__', ne.name) reportSet ne end&quot;</body>
+      </specification>
+    </ownedRule>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lN_C5vwlEeW24_XgaxFPaw" name="Rule">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lN_C5_wlEeW24_XgaxFPaw" general="_lN-bwvwlEeW24_XgaxFPaw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN_C6PwlEeW24_XgaxFPaw" name="eventType" visibility="private" type="_lN_C8vwlEeW24_XgaxFPaw" aggregation="shared" association="_lN_C-fwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN_C6fwlEeW24_XgaxFPaw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN_C6vwlEeW24_XgaxFPaw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN_C6_wlEeW24_XgaxFPaw" name="condition" visibility="private" type="_lN_C9PwlEeW24_XgaxFPaw" aggregation="shared" association="_lN_C_fwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN_C7PwlEeW24_XgaxFPaw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN_C7fwlEeW24_XgaxFPaw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN_C7vwlEeW24_XgaxFPaw" name="priority" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN_C7_wlEeW24_XgaxFPaw" name="actions" visibility="private" type="_lN_C9vwlEeW24_XgaxFPaw" association="_lN_DAfwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN_C8PwlEeW24_XgaxFPaw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN_C8fwlEeW24_XgaxFPaw" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lN_C8vwlEeW24_XgaxFPaw" name="EventType">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN_C8_wlEeW24_XgaxFPaw" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lN_C9PwlEeW24_XgaxFPaw" name="Condition">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN_C9fwlEeW24_XgaxFPaw" name="greqlBooleanExpression" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lN_C9vwlEeW24_XgaxFPaw" name="Action">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN_C9_wlEeW24_XgaxFPaw" name="methodName" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN_C-PwlEeW24_XgaxFPaw" name="params" visibility="private" type="_lN_C3_wlEeW24_XgaxFPaw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lN_C-fwlEeW24_XgaxFPaw" name="OnEvent" memberEnd="_lN_C6PwlEeW24_XgaxFPaw _lN_C-vwlEeW24_XgaxFPaw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lN_C-vwlEeW24_XgaxFPaw" name="rules" visibility="private" type="_lN_C5vwlEeW24_XgaxFPaw" association="_lN_C-fwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN_C-_wlEeW24_XgaxFPaw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN_C_PwlEeW24_XgaxFPaw"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lN_C_fwlEeW24_XgaxFPaw" name="HasCondition" memberEnd="_lN_C6_wlEeW24_XgaxFPaw _lN_C_vwlEeW24_XgaxFPaw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lN_C_vwlEeW24_XgaxFPaw" name="rules" visibility="private" type="_lN_C5vwlEeW24_XgaxFPaw" association="_lN_C_fwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN_C__wlEeW24_XgaxFPaw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN_DAPwlEeW24_XgaxFPaw"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lN_DAfwlEeW24_XgaxFPaw" name="HasAction" memberEnd="_lN_C7_wlEeW24_XgaxFPaw _lN_pwPwlEeW24_XgaxFPaw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lN_pwPwlEeW24_XgaxFPaw" name="rules" visibility="private" type="_lN_C5vwlEeW24_XgaxFPaw" association="_lN_DAfwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN_pwfwlEeW24_XgaxFPaw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN_pwvwlEeW24_XgaxFPaw"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lN_pw_wlEeW24_XgaxFPaw" name="EventObject">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN_pxPwlEeW24_XgaxFPaw" name="subject" visibility="private" type="_lN-bwvwlEeW24_XgaxFPaw" aggregation="shared" association="_lN_pzvwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN_pxfwlEeW24_XgaxFPaw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN_pxvwlEeW24_XgaxFPaw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN_px_wlEeW24_XgaxFPaw" name="object" visibility="private" type="_lN-bwvwlEeW24_XgaxFPaw" aggregation="shared" association="_lN_p0vwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN_pyPwlEeW24_XgaxFPaw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN_pyfwlEeW24_XgaxFPaw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN_pyvwlEeW24_XgaxFPaw" name="eventType" visibility="private" type="_lN_C8vwlEeW24_XgaxFPaw" aggregation="shared" association="_lN_p1vwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN_py_wlEeW24_XgaxFPaw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN_pzPwlEeW24_XgaxFPaw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN_pzfwlEeW24_XgaxFPaw" name="timeStamp" visibility="private" type="_lN_C3vwlEeW24_XgaxFPaw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lN_pzvwlEeW24_XgaxFPaw" name="HasSubject" memberEnd="_lN_pxPwlEeW24_XgaxFPaw _lN_pz_wlEeW24_XgaxFPaw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lN_pz_wlEeW24_XgaxFPaw" name="" visibility="private" type="_lN_pw_wlEeW24_XgaxFPaw" association="_lN_pzvwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN_p0PwlEeW24_XgaxFPaw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN_p0fwlEeW24_XgaxFPaw"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lN_p0vwlEeW24_XgaxFPaw" name="HasObject" memberEnd="_lN_px_wlEeW24_XgaxFPaw _lN_p0_wlEeW24_XgaxFPaw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lN_p0_wlEeW24_XgaxFPaw" name="" visibility="private" type="_lN_pw_wlEeW24_XgaxFPaw" association="_lN_p0vwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN_p1PwlEeW24_XgaxFPaw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN_p1fwlEeW24_XgaxFPaw"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lN_p1vwlEeW24_XgaxFPaw" name="HasEventType" memberEnd="_lN_pyvwlEeW24_XgaxFPaw _lN_p1_wlEeW24_XgaxFPaw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lN_p1_wlEeW24_XgaxFPaw" name="eventObject" visibility="private" type="_lN_pw_wlEeW24_XgaxFPaw" association="_lN_p1vwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN_p2PwlEeW24_XgaxFPaw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN_p2fwlEeW24_XgaxFPaw"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lN_p2vwlEeW24_XgaxFPaw" name="Rules">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lN_p2_wlEeW24_XgaxFPaw" name="rules" visibility="private" type="_lN_C5vwlEeW24_XgaxFPaw" aggregation="composite" association="_lN_p3vwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN_p3PwlEeW24_XgaxFPaw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN_p3fwlEeW24_XgaxFPaw"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lN_p3vwlEeW24_XgaxFPaw" name="" memberEnd="_lN_p2_wlEeW24_XgaxFPaw _lN_p3_wlEeW24_XgaxFPaw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lN_p3_wlEeW24_XgaxFPaw" name="ruleModel" visibility="private" type="_lN_p2vwlEeW24_XgaxFPaw" association="_lN_p3vwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lN_p4PwlEeW24_XgaxFPaw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lN_p4fwlEeW24_XgaxFPaw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_lN_p4vwlEeW24_XgaxFPaw" name="features">
+    <ownedRule xmi:type="uml:Constraint" xmi:id="_lN_p4_wlEeW24_XgaxFPaw" constrainedElement="_lOA3_fwlEeW24_XgaxFPaw _lOA3__wlEeW24_XgaxFPaw _lOA3-_wlEeW24_XgaxFPaw _lOA35fwlEeW24_XgaxFPaw">
+      <specification xmi:type="uml:OpaqueExpression" xmi:id="_lN_p5PwlEeW24_XgaxFPaw">
+        <language></language>
+        <body>&quot;The relationships of type Implication, Exclusion, Mandatory and Optional must have exactly one target.&quot;&#xD;&#xA;&quot;import arithmetics.*; forall r : V{Implication, Exclusion, Mandatory, Optional} @ r.targets &lt;> null and count(r.targets) = 1&quot;&#xD;&#xA;&quot;import arithmetics.*; from r : V{Implication, Exclusion, Mandatory, Optional} with r.targets = null or count(r.targets) &lt;> 1&quot;</body>
+      </specification>
+    </ownedRule>
+    <ownedRule xmi:type="uml:Constraint" xmi:id="_lN_p5fwlEeW24_XgaxFPaw" constrainedElement="_lOA34_wlEeW24_XgaxFPaw _lOA34fwlEeW24_XgaxFPaw">
+      <specification xmi:type="uml:OpaqueExpression" xmi:id="_lOA34PwlEeW24_XgaxFPaw">
+        <language></language>
+        <body>&quot;The relationships of type Alternative and Or must have at least two targets.&quot;&#xD;&#xA;&quot;import arithmetics.*; forall r : V{Alternative, Or} @ r.targets &lt;> null and count(r.targets) >= 2&quot;&#xD;&#xA;&quot;import arithmetics.*; from r : V {Alternative, Or} with r.targets = null or count(r.targets) &lt; 2&quot;</body>
+      </specification>
+    </ownedRule>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lOA34fwlEeW24_XgaxFPaw" name="Or">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lOA34vwlEeW24_XgaxFPaw" general="_lOA35_wlEeW24_XgaxFPaw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lOA34_wlEeW24_XgaxFPaw" name="Alternative">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lOA35PwlEeW24_XgaxFPaw" general="_lOA35_wlEeW24_XgaxFPaw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lOA35fwlEeW24_XgaxFPaw" name="Optional">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lOA35vwlEeW24_XgaxFPaw" general="_lOA35_wlEeW24_XgaxFPaw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lOA35_wlEeW24_XgaxFPaw" name="Relationship" isAbstract="true">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lOA36PwlEeW24_XgaxFPaw" name="targets" visibility="private" type="_lOA37vwlEeW24_XgaxFPaw" association="_lOA4AfwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lOA36fwlEeW24_XgaxFPaw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lOA36vwlEeW24_XgaxFPaw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lOA36_wlEeW24_XgaxFPaw" name="source" visibility="private" type="_lOA37vwlEeW24_XgaxFPaw" association="_lOA4AvwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lOA37PwlEeW24_XgaxFPaw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lOA37fwlEeW24_XgaxFPaw" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lOA37vwlEeW24_XgaxFPaw" name="Feature">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lOA37_wlEeW24_XgaxFPaw" general="_lN-bwvwlEeW24_XgaxFPaw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lOA38PwlEeW24_XgaxFPaw" name="description" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lOA38fwlEeW24_XgaxFPaw" name="selected" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.2/uml.xml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lOA38vwlEeW24_XgaxFPaw" name="incoming" visibility="private" type="_lOA35_wlEeW24_XgaxFPaw" association="_lOA4AfwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lOA38_wlEeW24_XgaxFPaw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lOA39PwlEeW24_XgaxFPaw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lOA39fwlEeW24_XgaxFPaw" name="outgoings" visibility="private" type="_lOA35_wlEeW24_XgaxFPaw" association="_lOA4AvwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lOA39vwlEeW24_XgaxFPaw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lOA39_wlEeW24_XgaxFPaw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lOA3-PwlEeW24_XgaxFPaw" name="implElement" visibility="private" type="_lOA4CPwlEeW24_XgaxFPaw" association="_lOA4A_wlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lOA3-fwlEeW24_XgaxFPaw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lOA3-vwlEeW24_XgaxFPaw"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lOA3-_wlEeW24_XgaxFPaw" name="Mandatory">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lOA3_PwlEeW24_XgaxFPaw" general="_lOA35_wlEeW24_XgaxFPaw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lOA3_fwlEeW24_XgaxFPaw" name="Implication">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lOA3_vwlEeW24_XgaxFPaw" general="_lOA35_wlEeW24_XgaxFPaw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lOA3__wlEeW24_XgaxFPaw" name="Exclusion">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lOA4APwlEeW24_XgaxFPaw" general="_lOA35_wlEeW24_XgaxFPaw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lOA4AfwlEeW24_XgaxFPaw" name="GoesTo" memberEnd="_lOA36PwlEeW24_XgaxFPaw _lOA38vwlEeW24_XgaxFPaw"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lOA4AvwlEeW24_XgaxFPaw" name="ComesFrom" memberEnd="_lOA36_wlEeW24_XgaxFPaw _lOA39fwlEeW24_XgaxFPaw"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lOA4A_wlEeW24_XgaxFPaw" name="ImplementedBy" memberEnd="_lOA3-PwlEeW24_XgaxFPaw _lOA4BPwlEeW24_XgaxFPaw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lOA4BPwlEeW24_XgaxFPaw" name="feature" visibility="private" type="_lOA37vwlEeW24_XgaxFPaw" association="_lOA4A_wlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lOA4BfwlEeW24_XgaxFPaw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lOA4BvwlEeW24_XgaxFPaw"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_lOA4B_wlEeW24_XgaxFPaw" name="solution">
+      <packagedElement xmi:type="uml:Class" xmi:id="_lOA4CPwlEeW24_XgaxFPaw" name="ImplementationElement" isAbstract="true">
+        <generalization xmi:type="uml:Generalization" xmi:id="_lOA4CfwlEeW24_XgaxFPaw" general="_lN-bwvwlEeW24_XgaxFPaw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_lOA4CvwlEeW24_XgaxFPaw" name="OSGiBundle">
+        <generalization xmi:type="uml:Generalization" xmi:id="_lOA4C_wlEeW24_XgaxFPaw" general="_lOA4CPwlEeW24_XgaxFPaw"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lOA4DPwlEeW24_XgaxFPaw" name="Features">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lOA4DfwlEeW24_XgaxFPaw" name="features" visibility="private" type="_lOA37vwlEeW24_XgaxFPaw" aggregation="composite" association="_lOA4EPwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lOA4DvwlEeW24_XgaxFPaw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lOA4D_wlEeW24_XgaxFPaw"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lOA4EPwlEeW24_XgaxFPaw" memberEnd="_lOA4DfwlEeW24_XgaxFPaw _lOA4EfwlEeW24_XgaxFPaw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lOA4EfwlEeW24_XgaxFPaw" name="featureModel" visibility="private" type="_lOA4DPwlEeW24_XgaxFPaw" association="_lOA4EPwlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lOA4EvwlEeW24_XgaxFPaw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lOA4E_wlEeW24_XgaxFPaw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_lOA4FPwlEeW24_XgaxFPaw" name="persons">
+    <packagedElement xmi:type="uml:Class" xmi:id="_lOA4FfwlEeW24_XgaxFPaw" name="Person">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lOA4FvwlEeW24_XgaxFPaw" general="_lN-bwvwlEeW24_XgaxFPaw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lOA4F_wlEeW24_XgaxFPaw" name="room" visibility="private" type="_lN-b3PwlEeW24_XgaxFPaw" association="_lOA4I_wlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lOA4GPwlEeW24_XgaxFPaw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lOA4GfwlEeW24_XgaxFPaw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lOA4GvwlEeW24_XgaxFPaw" name="roles" visibility="private" type="_lOA4HfwlEeW24_XgaxFPaw" aggregation="shared" association="_lOA4H_wlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lOA4G_wlEeW24_XgaxFPaw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lOA4HPwlEeW24_XgaxFPaw" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lOA4HfwlEeW24_XgaxFPaw" name="Role">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lOA4HvwlEeW24_XgaxFPaw" general="_lN-bwvwlEeW24_XgaxFPaw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lOA4H_wlEeW24_XgaxFPaw" name="HasRole" memberEnd="_lOA4GvwlEeW24_XgaxFPaw _lOA4IPwlEeW24_XgaxFPaw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lOA4IPwlEeW24_XgaxFPaw" name="person" visibility="private" type="_lOA4FfwlEeW24_XgaxFPaw" association="_lOA4H_wlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lOA4IfwlEeW24_XgaxFPaw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lOA4IvwlEeW24_XgaxFPaw"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lOA4I_wlEeW24_XgaxFPaw" name="IsInRoom" memberEnd="_lOA4F_wlEeW24_XgaxFPaw _lOA4JPwlEeW24_XgaxFPaw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lOA4JPwlEeW24_XgaxFPaw" name="persons" visibility="private" type="_lOA4FfwlEeW24_XgaxFPaw" association="_lOA4I_wlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lOA4JfwlEeW24_XgaxFPaw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lOA4JvwlEeW24_XgaxFPaw"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lOA4J_wlEeW24_XgaxFPaw" name="Persons">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lOA4KPwlEeW24_XgaxFPaw" name="persons" visibility="private" type="_lOA4FfwlEeW24_XgaxFPaw" aggregation="composite" association="_lOA4K_wlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lOA4KfwlEeW24_XgaxFPaw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lOA4KvwlEeW24_XgaxFPaw"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lOA4K_wlEeW24_XgaxFPaw" memberEnd="_lOA4KPwlEeW24_XgaxFPaw _lOA4LPwlEeW24_XgaxFPaw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lOA4LPwlEeW24_XgaxFPaw" name="personModel" visibility="private" type="_lOA4J_wlEeW24_XgaxFPaw" association="_lOA4K_wlEeW24_XgaxFPaw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lOA4LfwlEeW24_XgaxFPaw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lOA4LvwlEeW24_XgaxFPaw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_lOBe8PwlEeW24_XgaxFPaw">
+    <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lOBe8fwlEeW24_XgaxFPaw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://schema.omg.org/spec/UML/2.2/StandardProfileL2.xmi#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+    </xmi:Extension>
+    <appliedProfile xmi:type="uml:Profile" href="http://schema.omg.org/spec/UML/2.2/StandardProfileL2.xmi#_0"/>
+  </profileApplication>
+</uml:Package>

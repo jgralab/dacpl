@@ -1,0 +1,30 @@
+ON (REQUESTS_ACCESS) {
+    RULE "Rule 1" WHEN
+        true
+    DO
+        // We assume that return values do not exist or are just “lost”.
+        // No rule chaining for now.
+        print("%s true", ?"theElement(e-->{rooms.HasObject}).name");
+    END
+    
+    RULE "Rule 2" WHEN
+        false
+    DO
+        // Should never be called!
+        print("%s true", "Heinz");
+    END
+    
+    RULE "Rule 3" WHEN 
+        // Assume that e is an available bound variable in each rule.
+        // let e := V{eca_rules.EventObject}[0] in
+        count(
+        	from r : V{rooms.Role}
+        	with e.subject-->{rooms.HasRole} r and r.name = 'EMPLOYEE'
+        	reportSet r end
+        ) >= 1
+    DO
+        // Should never be called!
+        print("%s true", ?"theElement(e-->{rooms.HasObject}).name");
+    END
+
+}

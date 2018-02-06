@@ -1,0 +1,27 @@
+// Bitte Ihre Anfrage hier eingeben!
+
+// WrongResultTypeException: Wrong result type: got Undefined but expected Boolean!: query part '((n1.name) undefined)' at position (223, 21) Complete (optimized) Query: from n1: V{rooms.NamedElement} with ((n1.name) undefined) report n1 end
+// Note how the "<>" is missing in the error message. Is this correct?
+// from n1 : V{rooms.NamedElement} with n1.name <> undefined report n1 end
+
+// WrongResultTypeException: Wrong result type: got Undefined but expected Boolean!: query part '((n1.name) = undefined)' at position (298, 20) Complete (optimized) Query: from n1: V{rooms.NamedElement} with ((n1.name) = undefined) report n1 end
+// from n1 : V{rooms.NamedElement} with n1.name = undefined report n1 end
+
+// Works as expected
+// from n1, n2 : V{rooms.NamedElement} with isDefined(n1.name) and isDefined(n2.name) and n1.name <> n2.name report n1, n2 end
+
+// forall ne1, ne2 : V{rooms.NamedElement} @ isDefined(ne1.name) and isDefined(ne2.name) and ne1.name <> ne2.name
+// from n1, n2 : V{rooms.NamedElement} with isDefined(n1.name) and isDefined(n2.name) and n1.name <> n2.name report n1, n2 end
+forall n1, n2 : V{rooms.NamedElement} @ (isDefined(n1.name) and isDefined(n2.name)) ? n1.name <> n2.name : false
+
+// forall ne : V{rooms.NamedElement} @ isDefined(ne)
+// from ne : V{rooms.NamedElement} with isUndefined(ne) report ne end
+
+// Hints from discussion with Volker:
+// theElement() returns the single element from a set - otherwise an exception.
+theElement(from r : V{rooms.Person}[0]-->{rooms.IsInRoom} report r.name end)
+
+// fwt can be used on subsets, too.
+// Path expressions always return a set! See example below for binding variables to beginning and end.
+// Note that it is possible to iterate over a set of edges, too.
+from a : V{eca_rules.Rule}[0], b : V{eca_rules.Condition} with a-->{eca_rules.HasCondition}b report b.greqlBooleanExpression end

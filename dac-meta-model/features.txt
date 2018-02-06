@@ -1,0 +1,15 @@
+MAN ControlPanel (GraphicalFloorPlan OR TextConsole)
+MAN Sensor
+	OPT RoomSensor (RFIDSensor OR CameraSensor)
+	MAN CardReaderSensor
+OPT AccessControlAdaptationManager REQUIRES RoomSensor AND AdaptationRuleRepository
+OPT AdaptationRuleRepository
+OPT SystemStateMonitor
+// ExampleRule: If VIP exits company, disable all CameraSensors
+// ExampleRule: If VIP is in room x, then only VIP and MANAGER can access room
+
+Features have implementations (e.g., OSGi components). These will be loaded on demand.
+Admin may also send events: e.g., VIP finally left organization.
+
+Events: enter, exit, leave (for Persons)
+Events can be triggered by real hardware, by software (e.g., by a human via a control panel).

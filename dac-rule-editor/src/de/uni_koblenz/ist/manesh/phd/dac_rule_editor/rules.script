@@ -1,0 +1,45 @@
+ON (REQUESTS_ACCESS) {
+
+ 	RULE "Room2Access" WHEN
+		theElement(e-->{eca_rules.HasObject}-->{rooms.To}).uniqueName = 'R2' and
+	count(
+	    	from r : V{persons.Role}
+	    	with e-->{eca_rules.HasSubject}-->{persons.HasRole} r and r.uniqueName <> 'MANAGER'
+	    	reportSet r end
+	    ) >= 1
+	DO
+		// The second param is the door to open.
+		denyAccess(?"theElement(e-->{eca_rules.HasSubject}).uniqueName", ?"theElement(e-->{eca_rules.HasObject}).uniqueName");
+	END
+
+	RULE "RoomAccess" WHEN
+	   count(
+	    	from r : V{persons.Role}
+	    	with e-->{eca_rules.HasSubject}-->{persons.HasRole} r and r.uniqueName = 'EMPLOYEE' or r.uniqueName = 'MANAGER'
+	    	reportSet r end
+	    ) >= 1
+	DO
+		// The second param is the door to open.
+		grantAccess(?"theElement(e-->{eca_rules.HasSubject}).uniqueName", ?"theElement(e-->{eca_rules.HasObject}).uniqueName");
+	END
+	
+	// If at least one VIP is inside a room, only managers may enter the same room.
+	RULE "RoomAccessVip" WHEN
+		let room := theElement(e-->{eca_rules.HasObject}-->{rooms.To}) in 
+		count(
+			from p : V{persons.Person}, r : V{persons.Role}
+			with room<--{persons.IsInRoom}p and p-->{persons.HasRole}r and r.uniqueName = 'VIP'
+			reportSet r end
+		) >= 1
+		and
+		count(	
+	    	from r : V{persons.Role}
+	    	with e-->{eca_rules.HasSubject}-->{persons.HasRole}r and r.uniqueName = 'MANAGER'
+	    	reportSet r end
+	    ) = 0
+	DO
+		// The second param is the door to open.
+		denyAccess(?"theElement(e-->{eca_rules.HasSubject}).uniqueName", ?"theElement(e-->{eca_rules.HasObject}).uniqueName");
+	END
+
+}

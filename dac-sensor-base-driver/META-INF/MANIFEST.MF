@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Dac-sensor-base-driver
+Bundle-SymbolicName: dac-sensor-base-driver;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: dac-event-bus,
+ moco-runtime,
+ dac-model-repository
+Import-Package: org.osgi.framework
+Export-Package: com.dac.sensor.base,
+ com.dac.sensor.base.app_code,
+ com.dac.sensor.base.ports,
+ com.dac.sensor.base.ports.function
