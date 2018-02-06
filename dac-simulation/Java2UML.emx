@@ -1,0 +1,1409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:JavaTransformation50="http:///schemas/JavaTransformation50/_znHmkE3YEd-tPpJR7OP4Bg/34" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default? http:///schemas/JavaTransformation50/_znHmkE3YEd-tPpJR7OP4Bg/34 pathmap://TRANSFORM_ANNOTATION_PROFILES/JavaTransformProfile.epx#_znahgE3YEd-tPpJR7OP4Bg?JavaTransformation5.0/JavaTransformation50?">
+  <uml:Package xmi:id="_vqNRcV2oEeOHmfUKdmGZvA" name="Java2UML">
+    <eAnnotations xmi:id="_oB_tcF2pEeOHmfUKdmGZvA" source="uml2.diagrams">
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_oCAUgF2pEeOHmfUKdmGZvA" type="Class" name="AccessControl">
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_rPjOkF2pEeOHmfUKdmGZvA" element="_wFPAkV2oEeOHmfUKdmGZvA" fontName="Segoe UI" fontHeight="8" showListStereotype="Text" showListVisibility="Text" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_rPlDwF2pEeOHmfUKdmGZvA" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_rPlDwV2pEeOHmfUKdmGZvA" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_rPmR4F2pEeOHmfUKdmGZvA" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_rPmR4V2pEeOHmfUKdmGZvA" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_rPm48F2pEeOHmfUKdmGZvA" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_rPngAF2pEeOHmfUKdmGZvA" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_rPoHEF2pEeOHmfUKdmGZvA" type="OperationCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_rPouIF2pEeOHmfUKdmGZvA" visible="false" type="SignalCompartment"/>
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_rPpVMF2pEeOHmfUKdmGZvA" visible="false" type="StructureCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rPjOkV2pEeOHmfUKdmGZvA" x="3429"/>
+        </children>
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_rPqjUF2pEeOHmfUKdmGZvA" element="_wFF2oV2oEeOHmfUKdmGZvA" fontName="Segoe UI" fontHeight="8" showListStereotype="Text" showListVisibility="Text" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_rPs_kF2pEeOHmfUKdmGZvA" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_rPs_kV2pEeOHmfUKdmGZvA" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_rPtmoF2pEeOHmfUKdmGZvA" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_rPuNsF2pEeOHmfUKdmGZvA" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_rPuNsV2pEeOHmfUKdmGZvA" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_rPuNsl2pEeOHmfUKdmGZvA" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_rPu0wF2pEeOHmfUKdmGZvA" type="OperationCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_rPu0wV2pEeOHmfUKdmGZvA" visible="false" type="SignalCompartment"/>
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_rPu0wl2pEeOHmfUKdmGZvA" visible="false" type="StructureCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rPqjUV2pEeOHmfUKdmGZvA" x="4953" y="5080"/>
+        </children>
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_rPvb0F2pEeOHmfUKdmGZvA" element="_wFKIEF2oEeOHmfUKdmGZvA" fontName="Segoe UI" fontHeight="8" showListStereotype="Text" showListVisibility="Text" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_rPwC4F2pEeOHmfUKdmGZvA" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_rPwC4V2pEeOHmfUKdmGZvA" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_rPwp8F2pEeOHmfUKdmGZvA" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_rPwp8V2pEeOHmfUKdmGZvA" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_rPwp8l2pEeOHmfUKdmGZvA" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_rPwp812pEeOHmfUKdmGZvA" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_rPxRAF2pEeOHmfUKdmGZvA" type="OperationCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_rPxRAV2pEeOHmfUKdmGZvA" visible="false" type="SignalCompartment"/>
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_rPxRAl2pEeOHmfUKdmGZvA" visible="false" type="StructureCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rPvb0V2pEeOHmfUKdmGZvA" x="11049" y="4445"/>
+        </children>
+        <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_rPx4EF2pEeOHmfUKdmGZvA" element="_wJToQF2oEeOHmfUKdmGZvA" fontName="Segoe UI" fontHeight="8" showListStereotype="Text" showListVisibility="Text" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text" useClassifierShape="true">
+          <children xmi:type="notation:DecorationNode" xmi:id="_rPyfIF2pEeOHmfUKdmGZvA" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_rPyfIV2pEeOHmfUKdmGZvA" width="530" height="530"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_rPyfIl2pEeOHmfUKdmGZvA" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_rPzGMF2pEeOHmfUKdmGZvA" type="Kind"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_rPzGMV2pEeOHmfUKdmGZvA" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_rPzGMl2pEeOHmfUKdmGZvA" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_rPzGM12pEeOHmfUKdmGZvA" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_rPztQF2pEeOHmfUKdmGZvA" type="OperationCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_rPztQV2pEeOHmfUKdmGZvA" visible="false" type="SignalCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rPx4EV2pEeOHmfUKdmGZvA" y="5334"/>
+        </children>
+        <element xsi:nil="true"/>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_rP1icF2pEeOHmfUKdmGZvA" element="_wM2rgF2oEeOHmfUKdmGZvA" source="_rPjOkF2pEeOHmfUKdmGZvA" target="_rPvb0F2pEeOHmfUKdmGZvA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP2JgF2pEeOHmfUKdmGZvA" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_rP2Jgl2pEeOHmfUKdmGZvA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_rP2Jg12pEeOHmfUKdmGZvA" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rP2JgV2pEeOHmfUKdmGZvA" y="-149"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP2wkF2pEeOHmfUKdmGZvA" type="ToMultiplicityLabel" element="_wM2rgV2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_rP2wkl2pEeOHmfUKdmGZvA" type="ToMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rP2wkV2pEeOHmfUKdmGZvA" y="317"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP2wk12pEeOHmfUKdmGZvA" type="ToRoleLabel" element="_wM2rgV2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_rP3XoF2pEeOHmfUKdmGZvA" type="ToRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rP2wlF2pEeOHmfUKdmGZvA" y="-318"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP3XoV2pEeOHmfUKdmGZvA" type="FromMultiplicityLabel" element="_wM2EcF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_rP3Xo12pEeOHmfUKdmGZvA" type="FromMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rP3Xol2pEeOHmfUKdmGZvA" y="317"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP3-sF2pEeOHmfUKdmGZvA" type="FromRoleLabel" element="_wM2EcF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_rP3-sl2pEeOHmfUKdmGZvA" type="FromRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rP3-sV2pEeOHmfUKdmGZvA" x="19" y="-1205"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP3-s12pEeOHmfUKdmGZvA" type="ToQualifierLabel" element="_wM2rgV2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_rP4lwF2pEeOHmfUKdmGZvA" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rP3-tF2pEeOHmfUKdmGZvA" y="-149"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP4lwV2pEeOHmfUKdmGZvA" type="FromQualifierLabel" element="_wM2EcF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_rP4lw12pEeOHmfUKdmGZvA" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rP4lwl2pEeOHmfUKdmGZvA" y="-149"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP4lxF2pEeOHmfUKdmGZvA" type="ToConstraintLabel" element="_wM2rgV2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:ListCompartment" xmi:id="_rP5M0F2pEeOHmfUKdmGZvA" type="ToConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rP4lxV2pEeOHmfUKdmGZvA" y="846"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP5M0V2pEeOHmfUKdmGZvA" type="FromConstraintLabel" element="_wM2EcF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:ListCompartment" xmi:id="_rP5M012pEeOHmfUKdmGZvA" type="FromConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rP5M0l2pEeOHmfUKdmGZvA" y="846"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rP1icV2pEeOHmfUKdmGZvA" points="[47, 82, -3939, -1777]$[47, 589, -3939, -1270]$[4018, 589, 32, -1270]$[4018, 1859, 32, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rRWlYF2pEeOHmfUKdmGZvA" id="(0.7501068115234375,0.9701173959445039)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rRXzgF2pEeOHmfUKdmGZvA" id="(0.5,0.0)"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_rP5z4F2pEeOHmfUKdmGZvA" element="_wM7kAF2oEeOHmfUKdmGZvA" source="_rPjOkF2pEeOHmfUKdmGZvA" target="_rPqjUF2pEeOHmfUKdmGZvA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP6a8F2pEeOHmfUKdmGZvA" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_rP6a8l2pEeOHmfUKdmGZvA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_rP6a812pEeOHmfUKdmGZvA" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rP6a8V2pEeOHmfUKdmGZvA" y="-149"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP7CAF2pEeOHmfUKdmGZvA" type="ToMultiplicityLabel" element="_wM7kAV2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_rP7CAl2pEeOHmfUKdmGZvA" type="ToMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rP7CAV2pEeOHmfUKdmGZvA" y="317"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP7CA12pEeOHmfUKdmGZvA" type="ToRoleLabel" element="_wM7kAV2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_rP7pEF2pEeOHmfUKdmGZvA" type="ToRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rP7CBF2pEeOHmfUKdmGZvA" y="-318"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP7pEV2pEeOHmfUKdmGZvA" type="FromMultiplicityLabel" element="_wM6V4l2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_rP7pE12pEeOHmfUKdmGZvA" type="FromMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rP7pEl2pEeOHmfUKdmGZvA" y="317"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP7pFF2pEeOHmfUKdmGZvA" type="FromRoleLabel" element="_wM6V4l2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_rP8QIV2pEeOHmfUKdmGZvA" type="FromRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rP8QIF2pEeOHmfUKdmGZvA" x="-72" y="-1090"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP8QIl2pEeOHmfUKdmGZvA" type="ToQualifierLabel" element="_wM7kAV2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_rP8QJF2pEeOHmfUKdmGZvA" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rP8QI12pEeOHmfUKdmGZvA" y="-149"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP83MF2pEeOHmfUKdmGZvA" type="FromQualifierLabel" element="_wM6V4l2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_rP83Ml2pEeOHmfUKdmGZvA" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rP83MV2pEeOHmfUKdmGZvA" y="-149"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP83M12pEeOHmfUKdmGZvA" type="ToConstraintLabel" element="_wM7kAV2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:ListCompartment" xmi:id="_rP9eQF2pEeOHmfUKdmGZvA" type="ToConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rP83NF2pEeOHmfUKdmGZvA" y="846"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP9eQV2pEeOHmfUKdmGZvA" type="FromConstraintLabel" element="_wM6V4l2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:ListCompartment" xmi:id="_rP9eQ12pEeOHmfUKdmGZvA" type="FromConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rP9eQl2pEeOHmfUKdmGZvA" y="846"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rP5z4V2pEeOHmfUKdmGZvA" points="[31, 82, 239, -2315]$[31, 589, 239, -1808]$[-177, 589, 31, -1808]$[-177, 2397, 31, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rRZBoF2pEeOHmfUKdmGZvA" id="(0.5001067489874168,0.9701173959445039)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rRZosF2pEeOHmfUKdmGZvA" id="(0.5,4.3454118574912957E-16)"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_rP-FUF2pEeOHmfUKdmGZvA" element="_wM5u0F2oEeOHmfUKdmGZvA" source="_rPjOkF2pEeOHmfUKdmGZvA" target="_rPx4EF2pEeOHmfUKdmGZvA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP-sYF2pEeOHmfUKdmGZvA" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_rP-sYl2pEeOHmfUKdmGZvA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_rP-sY12pEeOHmfUKdmGZvA" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rP-sYV2pEeOHmfUKdmGZvA" y="-149"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP-sZF2pEeOHmfUKdmGZvA" type="ToMultiplicityLabel" element="_wM5u0V2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_rP_TcF2pEeOHmfUKdmGZvA" type="ToMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rP-sZV2pEeOHmfUKdmGZvA" y="317"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP_TcV2pEeOHmfUKdmGZvA" type="ToRoleLabel" element="_wM5u0V2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_rP_Tc12pEeOHmfUKdmGZvA" type="ToRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rP_Tcl2pEeOHmfUKdmGZvA" y="-318"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP_6gF2pEeOHmfUKdmGZvA" type="FromMultiplicityLabel" element="_wM35oF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_rP_6gl2pEeOHmfUKdmGZvA" type="FromMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rP_6gV2pEeOHmfUKdmGZvA" y="317"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rP_6g12pEeOHmfUKdmGZvA" type="FromRoleLabel" element="_wM35oF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_rQAhkF2pEeOHmfUKdmGZvA" type="FromRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rP_6hF2pEeOHmfUKdmGZvA" x="-10" y="-1859"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rQAhkV2pEeOHmfUKdmGZvA" type="ToQualifierLabel" element="_wM5u0V2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_rQAhk12pEeOHmfUKdmGZvA" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rQAhkl2pEeOHmfUKdmGZvA" y="-149"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rQBIoF2pEeOHmfUKdmGZvA" type="FromQualifierLabel" element="_wM35oF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_rQBIol2pEeOHmfUKdmGZvA" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rQBIoV2pEeOHmfUKdmGZvA" y="-149"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rQBIo12pEeOHmfUKdmGZvA" type="ToConstraintLabel" element="_wM5u0V2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:ListCompartment" xmi:id="_rQBvsF2pEeOHmfUKdmGZvA" type="ToConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rQBIpF2pEeOHmfUKdmGZvA" y="846"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_rQBvsV2pEeOHmfUKdmGZvA" type="FromConstraintLabel" element="_wM35oF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:ListCompartment" xmi:id="_rQBvs12pEeOHmfUKdmGZvA" type="FromConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rQBvsl2pEeOHmfUKdmGZvA" y="846"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rP-FUV2pEeOHmfUKdmGZvA" points="[15, 82, 3793, -2624]$[15, 589, 3793, -2117]$[-3746, 589, 32, -2117]$[-3746, 2706, 32, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rRa20F2pEeOHmfUKdmGZvA" id="(0.25010674898741675,0.9701173959445039)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rRbd4F2pEeOHmfUKdmGZvA" id="(0.5,0.0)"/>
+        </edges>
+      </contents>
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vXPcsF2pEeOHmfUKdmGZvA" type="Class" name="Adaptation">
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_wxlTwF2pEeOHmfUKdmGZvA" element="_wFiikV2oEeOHmfUKdmGZvA" fontName="Segoe UI" fontHeight="8" showListStereotype="Text" showListVisibility="Text" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_wxnI8F2pEeOHmfUKdmGZvA" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_wxnI8V2pEeOHmfUKdmGZvA" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_wxnwAF2pEeOHmfUKdmGZvA" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_wxoXEF2pEeOHmfUKdmGZvA" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_wxoXEV2pEeOHmfUKdmGZvA" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_wxo-IF2pEeOHmfUKdmGZvA" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_wxo-IV2pEeOHmfUKdmGZvA" type="OperationCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_wxplMF2pEeOHmfUKdmGZvA" visible="false" type="SignalCompartment"/>
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_wxplMV2pEeOHmfUKdmGZvA" visible="false" type="StructureCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wxlTwV2pEeOHmfUKdmGZvA"/>
+        </children>
+        <element xsi:nil="true"/>
+      </contents>
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_zUPdwF2pEeOHmfUKdmGZvA" type="Class" name="Entities">
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_2GPEQF2pEeOHmfUKdmGZvA" element="_wFll4F2oEeOHmfUKdmGZvA" fontName="Segoe UI" fontHeight="8" showListStereotype="Text" showListVisibility="Text" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_2GQ5cF2pEeOHmfUKdmGZvA" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_2GQ5cV2pEeOHmfUKdmGZvA" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_2GRggF2pEeOHmfUKdmGZvA" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_2GSHkF2pEeOHmfUKdmGZvA" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_2GSuoF2pEeOHmfUKdmGZvA" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_2GTVsF2pEeOHmfUKdmGZvA" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_2GT8wF2pEeOHmfUKdmGZvA" type="OperationCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_2GUj0F2pEeOHmfUKdmGZvA" visible="false" type="SignalCompartment"/>
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_2GVK4F2pEeOHmfUKdmGZvA" visible="false" type="StructureCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2GPEQV2pEeOHmfUKdmGZvA" y="10922"/>
+        </children>
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_2GWZAF2pEeOHmfUKdmGZvA" element="_wExtkF2oEeOHmfUKdmGZvA" fontName="Segoe UI" fontHeight="8" showListStereotype="Text" showListVisibility="Text" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_2GYOMF2pEeOHmfUKdmGZvA" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_2GYOMV2pEeOHmfUKdmGZvA" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_2GYOMl2pEeOHmfUKdmGZvA" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_2GYOM12pEeOHmfUKdmGZvA" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_2GY1QF2pEeOHmfUKdmGZvA" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_2GY1QV2pEeOHmfUKdmGZvA" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_2GY1Ql2pEeOHmfUKdmGZvA" type="OperationCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_2GaDYF2pEeOHmfUKdmGZvA" visible="false" type="SignalCompartment"/>
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_2GaDYV2pEeOHmfUKdmGZvA" visible="false" type="StructureCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2GWZAV2pEeOHmfUKdmGZvA" x="2794"/>
+        </children>
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_2GaqcF2pEeOHmfUKdmGZvA" element="_wFI58F2oEeOHmfUKdmGZvA" fontName="Segoe UI" fontHeight="8" showListStereotype="Text" showListVisibility="Text" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_2GbRgF2pEeOHmfUKdmGZvA" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_2GbRgV2pEeOHmfUKdmGZvA" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_2Gb4kF2pEeOHmfUKdmGZvA" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_2Gb4kV2pEeOHmfUKdmGZvA" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_2Gb4kl2pEeOHmfUKdmGZvA" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_2Gb4k12pEeOHmfUKdmGZvA" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_2GcfoF2pEeOHmfUKdmGZvA" type="OperationCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_2GcfoV2pEeOHmfUKdmGZvA" visible="false" type="SignalCompartment"/>
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_2Gcfol2pEeOHmfUKdmGZvA" visible="false" type="StructureCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2GaqcV2pEeOHmfUKdmGZvA" x="889" y="4445"/>
+        </children>
+        <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_2GdGsF2pEeOHmfUKdmGZvA" element="_wFZYoF2oEeOHmfUKdmGZvA" fontName="Segoe UI" fontHeight="8" showListStereotype="Text" showListVisibility="Text" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text" useClassifierShape="true">
+          <children xmi:type="notation:DecorationNode" xmi:id="_2GdtwF2pEeOHmfUKdmGZvA" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_2GdtwV2pEeOHmfUKdmGZvA" width="530" height="530"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_2GeU0F2pEeOHmfUKdmGZvA" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_2GeU0V2pEeOHmfUKdmGZvA" type="Kind"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_2GeU0l2pEeOHmfUKdmGZvA" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_2GeU012pEeOHmfUKdmGZvA" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_2Ge74F2pEeOHmfUKdmGZvA" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_2Ge74V2pEeOHmfUKdmGZvA" type="OperationCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_2Ge74l2pEeOHmfUKdmGZvA" visible="false" type="SignalCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2GdGsV2pEeOHmfUKdmGZvA" x="6477" y="10922"/>
+        </children>
+        <element xsi:nil="true"/>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_2GhYIF2pEeOHmfUKdmGZvA" element="_wLMeo12oEeOHmfUKdmGZvA" source="_2GaqcF2pEeOHmfUKdmGZvA" target="_2GdGsF2pEeOHmfUKdmGZvA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_2Gh_MF2pEeOHmfUKdmGZvA" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2Gh_Ml2pEeOHmfUKdmGZvA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2GimQF2pEeOHmfUKdmGZvA" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Gh_MV2pEeOHmfUKdmGZvA" y="-149"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2GhYIV2pEeOHmfUKdmGZvA" points="[48, 83, -3711, -2264]$[48, 1436, -3711, -911]$[3780, 1436, 21, -911]$[3780, 2347, 21, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2IqGIF2pEeOHmfUKdmGZvA" id="(0.7502553253574555,0.9802213327054391)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2IqtMF2pEeOHmfUKdmGZvA" id="(0.3333334888616818,1.133326731181219E-15)"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_2GimQV2pEeOHmfUKdmGZvA" element="_wJ43EF2oEeOHmfUKdmGZvA" source="_2GWZAF2pEeOHmfUKdmGZvA" target="_2GdGsF2pEeOHmfUKdmGZvA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_2GjNUF2pEeOHmfUKdmGZvA" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2GjNUl2pEeOHmfUKdmGZvA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2Gj0YF2pEeOHmfUKdmGZvA" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2GjNUV2pEeOHmfUKdmGZvA" y="-149"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2GimQl2pEeOHmfUKdmGZvA" points="[50, 82, -2492, -8204]$[50, 6952, -2492, -1334]$[2584, 6952, 42, -1334]$[2584, 8286, 42, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Ij_gF2pEeOHmfUKdmGZvA" id="(0.8002383181800854,0.9701173959445039)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2IlNoF2pEeOHmfUKdmGZvA" id="(0.6666667444308413,1.133326731181219E-15)"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_2Gj0YV2pEeOHmfUKdmGZvA" element="_wJ6FMF2oEeOHmfUKdmGZvA" source="_2GWZAF2pEeOHmfUKdmGZvA" target="_2GPEQF2pEeOHmfUKdmGZvA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_2GkbcF2pEeOHmfUKdmGZvA" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2Gkbcl2pEeOHmfUKdmGZvA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2GlCgF2pEeOHmfUKdmGZvA" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2GkbcV2pEeOHmfUKdmGZvA" y="-149"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2Gj0Yl2pEeOHmfUKdmGZvA" points="[38, 82, 1554, -8140]$[38, 589, 1554, -7633]$[81, 589, 1597, -7633]$[81, 7798, 1597, -424]$[-1474, 7798, 42, -424]$[-1474, 8222, 42, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2ImbwF2pEeOHmfUKdmGZvA" id="(0.6002383777447392,0.9701173959445039)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2InC0F2pEeOHmfUKdmGZvA" id="(0.6666666666666666,1.0490134968545885E-15)"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_2GlCgV2pEeOHmfUKdmGZvA" element="_wLNFsF2oEeOHmfUKdmGZvA" source="_2GaqcF2pEeOHmfUKdmGZvA" target="_2GPEQF2pEeOHmfUKdmGZvA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_2GlpkF2pEeOHmfUKdmGZvA" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2Glpkl2pEeOHmfUKdmGZvA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2Glpk12pEeOHmfUKdmGZvA" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2GlpkV2pEeOHmfUKdmGZvA" y="-149"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2GlCgl2pEeOHmfUKdmGZvA" points="[32, 83, 1043, -2200]$[32, 1013, 1043, -1270]$[-990, 1013, 21, -1270]$[-990, 2283, 21, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Ir7UF2pEeOHmfUKdmGZvA" id="(0.5002553253574555,0.9802213327054391)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2IsiYF2pEeOHmfUKdmGZvA" id="(0.3333333333333333,1.0490134968545885E-15)"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_2GmQoF2pEeOHmfUKdmGZvA" element="_wKFEUF2oEeOHmfUKdmGZvA" source="_2GaqcF2pEeOHmfUKdmGZvA" target="_2GWZAF2pEeOHmfUKdmGZvA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_2Gm3sF2pEeOHmfUKdmGZvA" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2Gm3sl2pEeOHmfUKdmGZvA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2Gm3s12pEeOHmfUKdmGZvA" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Gm3sV2pEeOHmfUKdmGZvA" y="-149"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2GnewF2pEeOHmfUKdmGZvA" type="ToMultiplicityLabel" element="_wKFrYF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2Gnewl2pEeOHmfUKdmGZvA" type="ToMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2GnewV2pEeOHmfUKdmGZvA" y="317"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2Gnew12pEeOHmfUKdmGZvA" type="ToRoleLabel" element="_wKFrYF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2GoF0F2pEeOHmfUKdmGZvA" type="ToRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2GnexF2pEeOHmfUKdmGZvA" y="-318"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2GoF0V2pEeOHmfUKdmGZvA" type="FromMultiplicityLabel" element="_wKDPIF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2Gos4F2pEeOHmfUKdmGZvA" type="FromMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2GoF0l2pEeOHmfUKdmGZvA" y="317"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2Gos4V2pEeOHmfUKdmGZvA" type="FromRoleLabel" element="_wKDPIF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2Gos412pEeOHmfUKdmGZvA" type="FromRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2Gos4l2pEeOHmfUKdmGZvA" x="218" y="-1187"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2Gos5F2pEeOHmfUKdmGZvA" type="ToQualifierLabel" element="_wKFrYF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_2GpT8F2pEeOHmfUKdmGZvA" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2Gos5V2pEeOHmfUKdmGZvA" y="-149"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2GpT8V2pEeOHmfUKdmGZvA" type="FromQualifierLabel" element="_wKDPIF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_2Gp7AF2pEeOHmfUKdmGZvA" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2GpT8l2pEeOHmfUKdmGZvA" y="-149"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2Gp7AV2pEeOHmfUKdmGZvA" type="ToConstraintLabel" element="_wKFrYF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:ListCompartment" xmi:id="_2Gp7A12pEeOHmfUKdmGZvA" type="ToConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2Gp7Al2pEeOHmfUKdmGZvA" y="846"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2GqiEF2pEeOHmfUKdmGZvA" type="FromConstraintLabel" element="_wKDPIF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:ListCompartment" xmi:id="_2GqiEl2pEeOHmfUKdmGZvA" type="FromConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2GqiEV2pEeOHmfUKdmGZvA" y="846"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2GmQoV2pEeOHmfUKdmGZvA" points="[21, 0, -1344, 1859]$[21, -1270, -1344, 589]$[1378, -1270, 13, 589]$[1378, -1777, 13, 82]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2ItwgF2pEeOHmfUKdmGZvA" id="(0.3335887061843449,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2IuXkF2pEeOHmfUKdmGZvA" id="(0.20023827350659515,0.9701173959445039)"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_2GrJIF2pEeOHmfUKdmGZvA" element="_wJf1gF2oEeOHmfUKdmGZvA" source="_2GWZAF2pEeOHmfUKdmGZvA" target="_2GaqcF2pEeOHmfUKdmGZvA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_2GrJIl2pEeOHmfUKdmGZvA" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2GrwMF2pEeOHmfUKdmGZvA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2GrwMV2pEeOHmfUKdmGZvA" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2GrJI12pEeOHmfUKdmGZvA" y="-149"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2GrwMl2pEeOHmfUKdmGZvA" type="ToMultiplicityLabel" element="_wJgckF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2GsXQF2pEeOHmfUKdmGZvA" type="ToMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2GrwM12pEeOHmfUKdmGZvA" y="317"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2GsXQV2pEeOHmfUKdmGZvA" type="ToRoleLabel" element="_wJgckF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2GsXQ12pEeOHmfUKdmGZvA" type="ToRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2GsXQl2pEeOHmfUKdmGZvA" y="-318"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2Gs-UF2pEeOHmfUKdmGZvA" type="FromMultiplicityLabel" element="_wJeAUF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2Gs-Ul2pEeOHmfUKdmGZvA" type="FromMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2Gs-UV2pEeOHmfUKdmGZvA" y="317"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2GtlYF2pEeOHmfUKdmGZvA" type="FromRoleLabel" element="_wJeAUF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2GtlYl2pEeOHmfUKdmGZvA" type="FromRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2GtlYV2pEeOHmfUKdmGZvA" x="-192" y="-700"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2GuMcF2pEeOHmfUKdmGZvA" type="ToQualifierLabel" element="_wJgckF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_2GvakF2pEeOHmfUKdmGZvA" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2GuMcV2pEeOHmfUKdmGZvA" y="-149"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2GvakV2pEeOHmfUKdmGZvA" type="FromQualifierLabel" element="_wJeAUF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_2GwBoV2pEeOHmfUKdmGZvA" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2GwBoF2pEeOHmfUKdmGZvA" y="-149"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2GxPwF2pEeOHmfUKdmGZvA" type="ToConstraintLabel" element="_wJgckF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:ListCompartment" xmi:id="_2Gx20F2pEeOHmfUKdmGZvA" type="ToConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2GxPwV2pEeOHmfUKdmGZvA" y="846"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2Gyd4F2pEeOHmfUKdmGZvA" type="FromConstraintLabel" element="_wJeAUF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:ListCompartment" xmi:id="_2Gyd4l2pEeOHmfUKdmGZvA" type="FromConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2Gyd4V2pEeOHmfUKdmGZvA" y="846"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2GrJIV2pEeOHmfUKdmGZvA" points="[25, 82, 913, -1777]$[25, 1012, 913, -847]$[-846, 1012, 42, -847]$[-846, 1859, 42, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2IoQ8F2pEeOHmfUKdmGZvA" id="(0.4002382883977585,0.9701173959445039)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Io4AF2pEeOHmfUKdmGZvA" id="(0.6669220870112343,0.0)"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_2GzE8F2pEeOHmfUKdmGZvA" element="_wKukkF2oEeOHmfUKdmGZvA" source="_2GaqcF2pEeOHmfUKdmGZvA" target="_2GaqcF2pEeOHmfUKdmGZvA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_2GzsAF2pEeOHmfUKdmGZvA" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2GzsAl2pEeOHmfUKdmGZvA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2GzsA12pEeOHmfUKdmGZvA" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2GzsAV2pEeOHmfUKdmGZvA" y="-149"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2GzsBF2pEeOHmfUKdmGZvA" type="ToMultiplicityLabel" element="_wKvLoF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2G0TEF2pEeOHmfUKdmGZvA" type="ToMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2GzsBV2pEeOHmfUKdmGZvA" y="317"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2G0TEV2pEeOHmfUKdmGZvA" type="ToRoleLabel" element="_wKvLoF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2G06IF2pEeOHmfUKdmGZvA" type="ToRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2G0TEl2pEeOHmfUKdmGZvA" y="-318"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2G06IV2pEeOHmfUKdmGZvA" type="FromMultiplicityLabel" element="_wKpFAF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2G06I12pEeOHmfUKdmGZvA" type="FromMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2G06Il2pEeOHmfUKdmGZvA" y="317"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2G1hMF2pEeOHmfUKdmGZvA" type="FromRoleLabel" element="_wKpFAF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_2G1hMl2pEeOHmfUKdmGZvA" type="FromRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2G1hMV2pEeOHmfUKdmGZvA" x="711" y="-414"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2G1hM12pEeOHmfUKdmGZvA" type="ToQualifierLabel" element="_wKvLoF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_2G2IQF2pEeOHmfUKdmGZvA" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2G1hNF2pEeOHmfUKdmGZvA" y="-149"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2G2IQV2pEeOHmfUKdmGZvA" type="FromQualifierLabel" element="_wKpFAF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_2G2IQ12pEeOHmfUKdmGZvA" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2G2IQl2pEeOHmfUKdmGZvA" y="-149"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2G2IRF2pEeOHmfUKdmGZvA" type="ToConstraintLabel" element="_wKvLoF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:ListCompartment" xmi:id="_2G2vUF2pEeOHmfUKdmGZvA" type="ToConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2G2IRV2pEeOHmfUKdmGZvA" y="846"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_2G2vUV2pEeOHmfUKdmGZvA" type="FromConstraintLabel" element="_wKpFAF2oEeOHmfUKdmGZvA">
+            <children xmi:type="notation:ListCompartment" xmi:id="_2G3WYF2pEeOHmfUKdmGZvA" type="FromConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2G2vUl2pEeOHmfUKdmGZvA" y="846"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2GzE8V2pEeOHmfUKdmGZvA" points="[16, 83, 857, 2082]$[16, 590, 857, 2589]$[-1264, 590, -423, 2589]$[-1264, -1957, -423, 42]$[-841, -1957, 0, 42]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2IvlsF2pEeOHmfUKdmGZvA" id="(0.2502553253574556,0.9802213327054391)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2IwMwF2pEeOHmfUKdmGZvA" id="(3.317386569057952E-17,0.5)"/>
+        </edges>
+      </contents>
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_4SPHIF28EeOHmfUKdmGZvA" type="Class" name="Testing">
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_9mVeAF28EeOHmfUKdmGZvA" element="_wFgtYV2oEeOHmfUKdmGZvA" fontName="Segoe UI" fontHeight="8" showListStereotype="Text" showListVisibility="Text" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_9mVeAl28EeOHmfUKdmGZvA" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_9mVeA128EeOHmfUKdmGZvA" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_9mVeBF28EeOHmfUKdmGZvA" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_9mVeBV28EeOHmfUKdmGZvA" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_9mVeBl28EeOHmfUKdmGZvA" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_9mVeB128EeOHmfUKdmGZvA" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_9mVeCF28EeOHmfUKdmGZvA" type="OperationCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_9mVeCV28EeOHmfUKdmGZvA" visible="false" type="SignalCompartment"/>
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_9mVeCl28EeOHmfUKdmGZvA" visible="false" type="StructureCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9mVeAV28EeOHmfUKdmGZvA" x="7874" y="127"/>
+        </children>
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_9mVeC128EeOHmfUKdmGZvA" element="_wFb04F2oEeOHmfUKdmGZvA" fontName="Segoe UI" fontHeight="8" showListStereotype="Text" showListVisibility="Text" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_9men8F28EeOHmfUKdmGZvA" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_9men8V28EeOHmfUKdmGZvA" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_9men8l28EeOHmfUKdmGZvA" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_9men8128EeOHmfUKdmGZvA" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_9men9F28EeOHmfUKdmGZvA" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_9men9V28EeOHmfUKdmGZvA" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_9men9l28EeOHmfUKdmGZvA" type="OperationCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_9men9128EeOHmfUKdmGZvA" visible="false" type="SignalCompartment"/>
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_9men-F28EeOHmfUKdmGZvA" visible="false" type="StructureCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9mVeDF28EeOHmfUKdmGZvA"/>
+        </children>
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_9men-V28EeOHmfUKdmGZvA" element="_wFCzUV2oEeOHmfUKdmGZvA" fontName="Segoe UI" fontHeight="8" showListStereotype="Text" showListVisibility="Text" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_9men-128EeOHmfUKdmGZvA" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_9men_F28EeOHmfUKdmGZvA" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_9men_V28EeOHmfUKdmGZvA" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_9men_l28EeOHmfUKdmGZvA" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_9men_128EeOHmfUKdmGZvA" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_9moY8F28EeOHmfUKdmGZvA" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_9moY8V28EeOHmfUKdmGZvA" type="OperationCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_9moY8l28EeOHmfUKdmGZvA" visible="false" type="SignalCompartment"/>
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_9moY8128EeOHmfUKdmGZvA" visible="false" type="StructureCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9men-l28EeOHmfUKdmGZvA" x="13716" y="381"/>
+        </children>
+        <element xsi:nil="true"/>
+      </contents>
+    </eAnnotations>
+    <packageImport xmi:id="_vuvMIF2oEeOHmfUKdmGZvA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:id="_vuzdkF2oEeOHmfUKdmGZvA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_wEQJIF2oEeOHmfUKdmGZvA" name="de">
+      <packagedElement xmi:type="uml:Package" xmi:id="_wEv4YF2oEeOHmfUKdmGZvA" name="uni_koblenz">
+        <packagedElement xmi:type="uml:Package" xmi:id="_wEv4YV2oEeOHmfUKdmGZvA" name="ist">
+          <packagedElement xmi:type="uml:Package" xmi:id="_wEwfcF2oEeOHmfUKdmGZvA" name="manesh">
+            <packagedElement xmi:type="uml:Package" xmi:id="_wEwfcV2oEeOHmfUKdmGZvA" name="phd">
+              <packagedElement xmi:type="uml:Package" xmi:id="_wEwfcl2oEeOHmfUKdmGZvA" name="case_studies">
+                <packagedElement xmi:type="uml:Package" xmi:id="_wExGgF2oEeOHmfUKdmGZvA" name="dspl">
+                  <packagedElement xmi:type="uml:Package" xmi:id="_wExGgV2oEeOHmfUKdmGZvA" name="entities">
+                    <packagedElement xmi:type="uml:Class" xmi:id="_wExtkF2oEeOHmfUKdmGZvA" name="Person" clientDependency="_wJ43EF2oEeOHmfUKdmGZvA">
+                      <ownedComment xmi:id="_wE8FoF2oEeOHmfUKdmGZvA" annotatedElement="_wExtkF2oEeOHmfUKdmGZvA">
+                        <body>This&amp;nbsp;class&amp;nbsp;realizes&amp;nbsp;a&amp;nbsp;person&amp;nbsp;as&amp;nbsp;a&amp;nbsp;{@link&amp;nbsp;NamedElement}&amp;nbsp;and&amp;nbsp;an&lt;br>{@link&amp;nbsp;IRenderable}.&amp;nbsp;A&amp;nbsp;person&amp;nbsp;can&amp;nbsp;have&amp;nbsp;a&amp;nbsp;certain&amp;nbsp;role,&amp;nbsp;an&amp;nbsp;id&amp;nbsp;and&amp;nbsp;it&amp;nbsp;can&amp;nbsp;have&lt;br>a&amp;nbsp;location&amp;nbsp;(i.e.,&amp;nbsp;a&amp;nbsp;{@link&amp;nbsp;Room}).&lt;br>&lt;br>@author&amp;nbsp;Mahdi&amp;nbsp;Derakhshanmanesh&amp;nbsp;{manesh@uni-koblenz.de}&lt;br></body>
+                      </ownedComment>
+                      <generalization xmi:id="_wJ6FMF2oEeOHmfUKdmGZvA" general="_wFll4F2oEeOHmfUKdmGZvA"/>
+                      <ownedAttribute xmi:id="_wJa9AF2oEeOHmfUKdmGZvA" name="role" visibility="private" type="_wFA-IF2oEeOHmfUKdmGZvA" association="_wJcLIF2oEeOHmfUKdmGZvA"/>
+                      <ownedAttribute xmi:id="_wJdZQF2oEeOHmfUKdmGZvA" name="id" visibility="private">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      </ownedAttribute>
+                      <ownedAttribute xmi:id="_wJeAUF2oEeOHmfUKdmGZvA" name="location" visibility="private" type="_wFI58F2oEeOHmfUKdmGZvA" association="_wJf1gF2oEeOHmfUKdmGZvA"/>
+                      <interfaceRealization xmi:id="_wJ43EF2oEeOHmfUKdmGZvA" supplier="_wFZYoF2oEeOHmfUKdmGZvA" client="_wExtkF2oEeOHmfUKdmGZvA" contract="_wFZYoF2oEeOHmfUKdmGZvA"/>
+                      <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_wFA-IF2oEeOHmfUKdmGZvA" name="RoleType">
+                        <eAnnotations xmi:id="_wFCMQV2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                          <details xmi:id="_wFCzUF2oEeOHmfUKdmGZvA" key="static"/>
+                        </eAnnotations>
+                        <ownedComment xmi:id="_wFBlMF2oEeOHmfUKdmGZvA" annotatedElement="_wFA-IF2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;enumeration&amp;nbsp;represents&amp;nbsp;the&amp;nbsp;foreseen&amp;nbsp;roles&amp;nbsp;of&amp;nbsp;persons.&lt;br>&lt;br>@author&amp;nbsp;Mahdi&amp;nbsp;Derakhshanmanesh&amp;nbsp;{manesh@uni-koblenz.de}&lt;br></body>
+                        </ownedComment>
+                        <ownedLiteral xmi:id="_wFoCIF2oEeOHmfUKdmGZvA" name="ADMIN_STAFF" classifier="_wFA-IF2oEeOHmfUKdmGZvA"/>
+                        <ownedLiteral xmi:id="_wFzoUF2oEeOHmfUKdmGZvA" name="ENGINEER" classifier="_wFA-IF2oEeOHmfUKdmGZvA"/>
+                        <ownedLiteral xmi:id="_wF02cF2oEeOHmfUKdmGZvA" name="GUEST" classifier="_wFA-IF2oEeOHmfUKdmGZvA"/>
+                        <ownedLiteral xmi:id="_wF1dgF2oEeOHmfUKdmGZvA" name="IT_STAFF" classifier="_wFA-IF2oEeOHmfUKdmGZvA"/>
+                        <ownedLiteral xmi:id="_wF2EkF2oEeOHmfUKdmGZvA" name="MANAGER" classifier="_wFA-IF2oEeOHmfUKdmGZvA"/>
+                        <ownedLiteral xmi:id="_wF2roF2oEeOHmfUKdmGZvA" name="VIP" classifier="_wFA-IF2oEeOHmfUKdmGZvA"/>
+                      </nestedClassifier>
+                      <ownedOperation xmi:id="_wJhDol2oEeOHmfUKdmGZvA" name="Person" visibility="public">
+                        <ownedComment xmi:id="_wJhqsF2oEeOHmfUKdmGZvA" annotatedElement="_wJhDol2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;constructor&amp;nbsp;creates&amp;nbsp;a&amp;nbsp;new&amp;nbsp;person&amp;nbsp;object.&lt;br>&lt;br>@param&amp;nbsp;role&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;role&amp;nbsp;of&amp;nbsp;the&amp;nbsp;person.&lt;br>@param&amp;nbsp;name&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;name&amp;nbsp;of&amp;nbsp;the&amp;nbsp;person.&amp;nbsp;May&amp;nbsp;not&amp;nbsp;be&amp;nbsp;null.&lt;br>@param&amp;nbsp;published&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;{@link&amp;nbsp;Room}&amp;nbsp;in&amp;nbsp;which&amp;nbsp;the&amp;nbsp;person&amp;nbsp;is.</body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wJjf4F2oEeOHmfUKdmGZvA" name="role" type="_wFA-IF2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wJkG8F2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wJkG8V2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                        </ownedParameter>
+                        <ownedParameter xmi:id="_wJkG8l2oEeOHmfUKdmGZvA" name="name">
+                          <eAnnotations xmi:id="_wJkG812oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wJkuAF2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                        </ownedParameter>
+                        <ownedParameter xmi:id="_wJkuAV2oEeOHmfUKdmGZvA" name="location" type="_wFI58F2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wJlVEF2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wJlVEV2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                        </ownedParameter>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wJlVEl2oEeOHmfUKdmGZvA" name="render" visibility="public"/>
+                      <ownedOperation xmi:id="_wJo_cF2oEeOHmfUKdmGZvA" name="getRandomPerson" visibility="public" isLeaf="true" isStatic="true">
+                        <ownedComment xmi:id="_wJpmgF2oEeOHmfUKdmGZvA" annotatedElement="_wJo_cF2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;method&amp;nbsp;returns&amp;nbsp;a&amp;nbsp;random&amp;nbsp;{@link&amp;nbsp;Person}&amp;nbsp;from&amp;nbsp;a&amp;nbsp;set&amp;nbsp;of&amp;nbsp;persons.&lt;br>&lt;br>@param&amp;nbsp;persons&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A&amp;nbsp;{@link&amp;nbsp;Set}&amp;nbsp;of&amp;nbsp;persons.&lt;br>@return&amp;nbsp;A&amp;nbsp;random&amp;nbsp;person&amp;nbsp;from&amp;nbsp;the&amp;nbsp;input&amp;nbsp;{@link&amp;nbsp;Set}.</body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wJqNkV2oEeOHmfUKdmGZvA" name="ReturnParameter" type="_wExtkF2oEeOHmfUKdmGZvA" direction="return"/>
+                        <ownedParameter xmi:id="_wJrbsF2oEeOHmfUKdmGZvA" name="persons" type="_wExtkF2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wJsp0V2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wJtQ4F2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wJsCwF2oEeOHmfUKdmGZvA" value="*"/>
+                          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wJsCwV2oEeOHmfUKdmGZvA"/>
+                        </ownedParameter>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wJtQ4V2oEeOHmfUKdmGZvA" name="findPersonsByRole" visibility="public" isLeaf="true" isStatic="true">
+                        <ownedComment xmi:id="_wJt38F2oEeOHmfUKdmGZvA" annotatedElement="_wJtQ4V2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;method&amp;nbsp;finds&amp;nbsp;a&amp;nbsp;{@link&amp;nbsp;Set}&amp;nbsp;of&amp;nbsp;{@link&amp;nbsp;Person}&amp;nbsp;by&amp;nbsp;their&lt;br>{@link&amp;nbsp;RoleType}.&lt;br>&lt;br>@param&amp;nbsp;type&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;{@link&amp;nbsp;RoleType}&amp;nbsp;to&amp;nbsp;be&amp;nbsp;looked&amp;nbsp;for.&lt;br>@param&amp;nbsp;persons&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;{@link&amp;nbsp;Set}&amp;nbsp;of&amp;nbsp;persons&amp;nbsp;to&amp;nbsp;search&amp;nbsp;in.&lt;br>@return&amp;nbsp;A&amp;nbsp;{@link&amp;nbsp;Set}&amp;nbsp;of&amp;nbsp;{@link&amp;nbsp;Person}&amp;nbsp;that&amp;nbsp;are&amp;nbsp;in&amp;nbsp;the&amp;nbsp;set,&amp;nbsp;may&amp;nbsp;be&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;empty.</body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wJufAF2oEeOHmfUKdmGZvA" name="ReturnParameter" type="_wExtkF2oEeOHmfUKdmGZvA" direction="return">
+                          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wJufAV2oEeOHmfUKdmGZvA" value="*"/>
+                          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wJvGEF2oEeOHmfUKdmGZvA"/>
+                        </ownedParameter>
+                        <ownedParameter xmi:id="_wJwUMF2oEeOHmfUKdmGZvA" name="type" type="_wFA-IF2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wJw7QF2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wJw7QV2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                        </ownedParameter>
+                        <ownedParameter xmi:id="_wJw7Ql2oEeOHmfUKdmGZvA" name="persons" type="_wExtkF2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wJyJYV2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wJyJYl2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wJxiUF2oEeOHmfUKdmGZvA" value="*"/>
+                          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wJxiUV2oEeOHmfUKdmGZvA"/>
+                        </ownedParameter>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wJyJY12oEeOHmfUKdmGZvA" name="findPersonByName" visibility="public" isLeaf="true" isStatic="true">
+                        <ownedComment xmi:id="_wJywcF2oEeOHmfUKdmGZvA" annotatedElement="_wJyJY12oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;method&amp;nbsp;finds&amp;nbsp;a&amp;nbsp;{@link&amp;nbsp;Person}&amp;nbsp;by&amp;nbsp;name.&lt;br>&lt;br>@param&amp;nbsp;name&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;name&amp;nbsp;of&amp;nbsp;the&amp;nbsp;{@link&amp;nbsp;Person}&amp;nbsp;to&amp;nbsp;look&amp;nbsp;for.&lt;br>@param&amp;nbsp;persons&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;{@link&amp;nbsp;Set}&amp;nbsp;of&amp;nbsp;persons&amp;nbsp;to&amp;nbsp;search&amp;nbsp;in.&lt;br>@return&amp;nbsp;A&amp;nbsp;{@link&amp;nbsp;Person}&amp;nbsp;if&amp;nbsp;in&amp;nbsp;the&amp;nbsp;set,&amp;nbsp;otherwise&amp;nbsp;&lt;code>null&lt;/code>.</body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wJzXgV2oEeOHmfUKdmGZvA" name="ReturnParameter" type="_wExtkF2oEeOHmfUKdmGZvA" direction="return"/>
+                        <ownedParameter xmi:id="_wJ0loF2oEeOHmfUKdmGZvA" name="name">
+                          <eAnnotations xmi:id="_wJ1MsF2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wJ1MsV2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                        </ownedParameter>
+                        <ownedParameter xmi:id="_wJ1Msl2oEeOHmfUKdmGZvA" name="persons" type="_wExtkF2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wJ2a0V2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wJ2a0l2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wJ1Ms12oEeOHmfUKdmGZvA" value="*"/>
+                          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wJ1zwF2oEeOHmfUKdmGZvA"/>
+                        </ownedParameter>
+                      </ownedOperation>
+                    </packagedElement>
+                    <packagedElement xmi:type="uml:Class" xmi:id="_wFI58F2oEeOHmfUKdmGZvA" name="Room" clientDependency="_wLMeo12oEeOHmfUKdmGZvA">
+                      <ownedComment xmi:id="_wFI58V2oEeOHmfUKdmGZvA" annotatedElement="_wFI58F2oEeOHmfUKdmGZvA">
+                        <body>This&amp;nbsp;class&amp;nbsp;realizes&amp;nbsp;a&amp;nbsp;room&amp;nbsp;as&amp;nbsp;a&amp;nbsp;{@link&amp;nbsp;NamedElement}&amp;nbsp;and&amp;nbsp;an&lt;br>{@link&amp;nbsp;IRenderable}.&lt;br>&lt;br>@author&amp;nbsp;Mahdi&amp;nbsp;Derakhshanmanesh&amp;nbsp;{manesh@uni-koblenz.de}&lt;br></body>
+                      </ownedComment>
+                      <generalization xmi:id="_wLNFsF2oEeOHmfUKdmGZvA" general="_wFll4F2oEeOHmfUKdmGZvA"/>
+                      <ownedAttribute xmi:id="_wKDPIF2oEeOHmfUKdmGZvA" name="persons" visibility="private" isLeaf="true" type="_wExtkF2oEeOHmfUKdmGZvA" association="_wKFEUF2oEeOHmfUKdmGZvA">
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wKDPIV2oEeOHmfUKdmGZvA" value="*"/>
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wKD2MF2oEeOHmfUKdmGZvA"/>
+                      </ownedAttribute>
+                      <ownedAttribute xmi:id="_wKpFAF2oEeOHmfUKdmGZvA" name="NIRVANA" visibility="private" isLeaf="true" isStatic="true" type="_wFI58F2oEeOHmfUKdmGZvA" association="_wKukkF2oEeOHmfUKdmGZvA">
+                        <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_wKqTIF2oEeOHmfUKdmGZvA">
+                          <language></language>
+                          <body>new Room(RoomType.NIRVANA)</body>
+                        </defaultValue>
+                      </ownedAttribute>
+                      <ownedAttribute xmi:id="_wKvysV2oEeOHmfUKdmGZvA" name="empty" visibility="public" isReadOnly="true" isDerived="true">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                      </ownedAttribute>
+                      <interfaceRealization xmi:id="_wLMeo12oEeOHmfUKdmGZvA" supplier="_wFZYoF2oEeOHmfUKdmGZvA" client="_wFI58F2oEeOHmfUKdmGZvA" contract="_wFZYoF2oEeOHmfUKdmGZvA"/>
+                      <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_wFeRIF2oEeOHmfUKdmGZvA" name="RoomType">
+                        <eAnnotations xmi:id="_wFffQF2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                          <details xmi:id="_wFffQV2oEeOHmfUKdmGZvA" key="static"/>
+                        </eAnnotations>
+                        <ownedComment xmi:id="_wFe4MF2oEeOHmfUKdmGZvA" annotatedElement="_wFeRIF2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;enum&amp;nbsp;represents&amp;nbsp;a&amp;nbsp;set&amp;nbsp;of&amp;nbsp;predefined&amp;nbsp;rooms.&amp;nbsp;These&amp;nbsp;types&amp;nbsp;are&amp;nbsp;used&amp;nbsp;as&lt;br>names&amp;nbsp;in&amp;nbsp;the&amp;nbsp;simulation.&lt;br>&lt;br>@author&amp;nbsp;Mahdi&amp;nbsp;Derakhshanmanesh&amp;nbsp;{manesh@uni-koblenz.de}&lt;br></body>
+                        </ownedComment>
+                        <ownedLiteral xmi:id="_wMPAcF2oEeOHmfUKdmGZvA" name="MANAGEMENT_ROOM" classifier="_wFeRIF2oEeOHmfUKdmGZvA"/>
+                        <ownedLiteral xmi:id="_wMQOkF2oEeOHmfUKdmGZvA" name="MAIN_OFFICE" classifier="_wFeRIF2oEeOHmfUKdmGZvA"/>
+                        <ownedLiteral xmi:id="_wMQ1oF2oEeOHmfUKdmGZvA" name="IT_ROOM" classifier="_wFeRIF2oEeOHmfUKdmGZvA"/>
+                        <ownedLiteral xmi:id="_wMSDwF2oEeOHmfUKdmGZvA" name="ENGINEERING_ROOM_1" classifier="_wFeRIF2oEeOHmfUKdmGZvA"/>
+                        <ownedLiteral xmi:id="_wMTR4F2oEeOHmfUKdmGZvA" name="ENGINEERING_ROOM_2" classifier="_wFeRIF2oEeOHmfUKdmGZvA"/>
+                        <ownedLiteral xmi:id="_wMT48F2oEeOHmfUKdmGZvA" name="ENGINEERING_ROOM_3" classifier="_wFeRIF2oEeOHmfUKdmGZvA"/>
+                        <ownedLiteral xmi:id="_wMVHEF2oEeOHmfUKdmGZvA" name="SEMINAR_ROOM" classifier="_wFeRIF2oEeOHmfUKdmGZvA"/>
+                        <ownedLiteral xmi:id="_wMWVMF2oEeOHmfUKdmGZvA" name="NIRVANA" classifier="_wFeRIF2oEeOHmfUKdmGZvA"/>
+                      </nestedClassifier>
+                      <ownedOperation xmi:id="_wKwZwF2oEeOHmfUKdmGZvA" name="Room" visibility="public">
+                        <ownedComment xmi:id="_wKxA0F2oEeOHmfUKdmGZvA" annotatedElement="_wKwZwF2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;constructor&amp;nbsp;creates&amp;nbsp;a&amp;nbsp;named&amp;nbsp;room,&amp;nbsp;where&amp;nbsp;the&amp;nbsp;name&amp;nbsp;is&amp;nbsp;set&amp;nbsp;to&amp;nbsp;the&lt;br>string&amp;nbsp;representatin&amp;nbsp;of&amp;nbsp;the&amp;nbsp;{@link&amp;nbsp;RoomType}.&lt;br>&lt;br>@param&amp;nbsp;type&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A&amp;nbsp;{@link&amp;nbsp;RoomType}&amp;nbsp;to&amp;nbsp;be&amp;nbsp;chosen&amp;nbsp;from&amp;nbsp;the&amp;nbsp;set&amp;nbsp;of&amp;nbsp;possible&amp;nbsp;ones.</body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wKyO8F2oEeOHmfUKdmGZvA" name="type" type="_wFeRIF2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wKy2AF2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wKy2AV2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                        </ownedParameter>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wKy2Al2oEeOHmfUKdmGZvA" name="Room" visibility="public">
+                        <ownedComment xmi:id="_wKy2A12oEeOHmfUKdmGZvA" annotatedElement="_wKy2Al2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;constructor&amp;nbsp;creates&amp;nbsp;a&amp;nbsp;named&amp;nbsp;room.&lt;br>&lt;br>@param&amp;nbsp;name&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;name&amp;nbsp;of&amp;nbsp;the&amp;nbsp;room&amp;nbsp;to&amp;nbsp;set.</body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wK0EIF2oEeOHmfUKdmGZvA" name="name">
+                          <eAnnotations xmi:id="_wK0rMF2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wK0rMV2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                        </ownedParameter>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wK0rMl2oEeOHmfUKdmGZvA" name="render" visibility="public">
+                        <ownedComment xmi:id="_wK1SQF2oEeOHmfUKdmGZvA" annotatedElement="_wK0rMl2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;method&amp;nbsp;displays&amp;nbsp;the&amp;nbsp;name&amp;nbsp;of&amp;nbsp;the&amp;nbsp;room&amp;nbsp;in&amp;nbsp;text&amp;nbsp;form.</body>
+                        </ownedComment>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wK48oF2oEeOHmfUKdmGZvA" name="addPerson" visibility="public">
+                        <ownedComment xmi:id="_wK5jsF2oEeOHmfUKdmGZvA" annotatedElement="_wK48oF2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;method&amp;nbsp;adds&amp;nbsp;a&amp;nbsp;{@link&amp;nbsp;Person}&amp;nbsp;to&amp;nbsp;this&amp;nbsp;room.&lt;br>&lt;br>@param&amp;nbsp;p&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A&amp;nbsp;{@link&amp;nbsp;Person},&amp;nbsp;may&amp;nbsp;not&amp;nbsp;be&amp;nbsp;&lt;code>null&lt;/code>.&lt;br>@return&amp;nbsp;&lt;code>true&lt;/code>&amp;nbsp;if&amp;nbsp;p&amp;nbsp;could&amp;nbsp;be&amp;nbsp;added,&amp;nbsp;otherwise&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;code>false&lt;/code>.</body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wK6KwF2oEeOHmfUKdmGZvA" name="ReturnParameter" direction="return">
+                          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                        </ownedParameter>
+                        <ownedParameter xmi:id="_wK6x0F2oEeOHmfUKdmGZvA" name="p" type="_wExtkF2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wK7Y4F2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wK7Y4V2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                        </ownedParameter>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wK7Y4l2oEeOHmfUKdmGZvA" name="removePerson" visibility="public">
+                        <ownedComment xmi:id="_wK7_8F2oEeOHmfUKdmGZvA" annotatedElement="_wK7Y4l2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;method&amp;nbsp;removes&amp;nbsp;a&amp;nbsp;{@link&amp;nbsp;Person}&amp;nbsp;from&amp;nbsp;this&amp;nbsp;room.&lt;br>&lt;br>@param&amp;nbsp;p&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A&amp;nbsp;{@link&amp;nbsp;Person}&amp;nbsp;to&amp;nbsp;be&amp;nbsp;removed&amp;nbsp;from&amp;nbsp;the&amp;nbsp;room.&lt;br>@return&amp;nbsp;&lt;code>true&lt;/code>&amp;nbsp;if&amp;nbsp;p&amp;nbsp;could&amp;nbsp;be&amp;nbsp;removed,&amp;nbsp;otherwise&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;code>false&lt;/code>.</body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wK8nAV2oEeOHmfUKdmGZvA" name="ReturnParameter" direction="return">
+                          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                        </ownedParameter>
+                        <ownedParameter xmi:id="_wK91IF2oEeOHmfUKdmGZvA" name="p" type="_wExtkF2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wK91IV2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wK-cMF2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                        </ownedParameter>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wK-cMV2oEeOHmfUKdmGZvA" name="contains" visibility="public">
+                        <ownedComment xmi:id="_wK-cMl2oEeOHmfUKdmGZvA" annotatedElement="_wK-cMV2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;method&amp;nbsp;checks&amp;nbsp;if&amp;nbsp;a&amp;nbsp;person&amp;nbsp;is&amp;nbsp;in&amp;nbsp;this&amp;nbsp;room&amp;nbsp;or&amp;nbsp;not.&lt;br>&lt;br>@param&amp;nbsp;p&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;{@link&amp;nbsp;Person}&amp;nbsp;to&amp;nbsp;be&amp;nbsp;checked&amp;nbsp;for.&lt;br>@return&amp;nbsp;&lt;code>true&lt;/code>&amp;nbsp;if&amp;nbsp;p&amp;nbsp;is&amp;nbsp;in&amp;nbsp;the&amp;nbsp;room,&amp;nbsp;otherwise&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;code>false&lt;/code>.</body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wK_qUF2oEeOHmfUKdmGZvA" name="ReturnParameter" direction="return">
+                          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                        </ownedParameter>
+                        <ownedParameter xmi:id="_wLARYF2oEeOHmfUKdmGZvA" name="p" type="_wExtkF2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wLA4cF2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wLA4cV2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                        </ownedParameter>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wLA4cl2oEeOHmfUKdmGZvA" name="findRoomByName" visibility="public" isLeaf="true" isStatic="true">
+                        <ownedComment xmi:id="_wLBfgF2oEeOHmfUKdmGZvA" annotatedElement="_wLA4cl2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;method&amp;nbsp;finds&amp;nbsp;a&amp;nbsp;{@link&amp;nbsp;Room}&amp;nbsp;by&amp;nbsp;name&amp;nbsp;using&amp;nbsp;the&amp;nbsp;type&amp;nbsp;of&amp;nbsp;the&lt;br>{@link&amp;nbsp;Room}&amp;nbsp;as&amp;nbsp;a&amp;nbsp;name.&lt;br>&lt;br>@param&amp;nbsp;type&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;{@link&amp;nbsp;RoomType}&amp;nbsp;to&amp;nbsp;be&amp;nbsp;looked&amp;nbsp;for.&lt;br>@param&amp;nbsp;rooms&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;{@link&amp;nbsp;Set}&amp;nbsp;of&amp;nbsp;rooms&amp;nbsp;to&amp;nbsp;search&amp;nbsp;in.&lt;br>@return&amp;nbsp;A&amp;nbsp;{@link&amp;nbsp;Room}&amp;nbsp;if&amp;nbsp;in&amp;nbsp;the&amp;nbsp;set,&amp;nbsp;otherwise&amp;nbsp;&lt;code>null&lt;/code>.</body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wLCGkF2oEeOHmfUKdmGZvA" name="ReturnParameter" type="_wFI58F2oEeOHmfUKdmGZvA" direction="return"/>
+                        <ownedParameter xmi:id="_wLCtoF2oEeOHmfUKdmGZvA" name="type" type="_wFeRIF2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wLDUsF2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wLDUsV2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                        </ownedParameter>
+                        <ownedParameter xmi:id="_wLDUsl2oEeOHmfUKdmGZvA" name="rooms" type="_wFI58F2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wLEi0V2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wLEi0l2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wLD7wF2oEeOHmfUKdmGZvA" value="*"/>
+                          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wLD7wV2oEeOHmfUKdmGZvA"/>
+                        </ownedParameter>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wLFJ4F2oEeOHmfUKdmGZvA" name="findRoomByName" visibility="public" isLeaf="true" isStatic="true">
+                        <ownedComment xmi:id="_wLFJ4V2oEeOHmfUKdmGZvA" annotatedElement="_wLFJ4F2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;method&amp;nbsp;finds&amp;nbsp;a&amp;nbsp;{@link&amp;nbsp;Room}&amp;nbsp;by&amp;nbsp;name.&lt;br>&lt;br>@param&amp;nbsp;name&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;name&amp;nbsp;of&amp;nbsp;the&amp;nbsp;{@link&amp;nbsp;Room}&amp;nbsp;to&amp;nbsp;look&amp;nbsp;for.&lt;br>@param&amp;nbsp;rooms&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;{@link&amp;nbsp;Set}&amp;nbsp;of&amp;nbsp;rooms&amp;nbsp;to&amp;nbsp;search&amp;nbsp;in.&lt;br>@return&amp;nbsp;A&amp;nbsp;{@link&amp;nbsp;Room}&amp;nbsp;if&amp;nbsp;in&amp;nbsp;the&amp;nbsp;set,&amp;nbsp;otherwise&amp;nbsp;&lt;code>null&lt;/code>.</body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wLFw8V2oEeOHmfUKdmGZvA" name="ReturnParameter" type="_wFI58F2oEeOHmfUKdmGZvA" direction="return"/>
+                        <ownedParameter xmi:id="_wLG_EF2oEeOHmfUKdmGZvA" name="name">
+                          <eAnnotations xmi:id="_wLHmIF2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wLHmIV2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                        </ownedParameter>
+                        <ownedParameter xmi:id="_wLHmIl2oEeOHmfUKdmGZvA" name="rooms" type="_wFI58F2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wLI0QV2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wLI0Ql2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wLINMF2oEeOHmfUKdmGZvA" value="*"/>
+                          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wLINMV2oEeOHmfUKdmGZvA"/>
+                        </ownedParameter>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wLI0Q12oEeOHmfUKdmGZvA" name="getRandomLocation" visibility="public" isLeaf="true" isStatic="true">
+                        <ownedComment xmi:id="_wLJbUF2oEeOHmfUKdmGZvA" annotatedElement="_wLI0Q12oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;method&amp;nbsp;returns&amp;nbsp;a&amp;nbsp;random&amp;nbsp;{@link&amp;nbsp;Room}&amp;nbsp;from&amp;nbsp;the&amp;nbsp;passed&amp;nbsp;{@link&amp;nbsp;Set}&amp;nbsp;of&lt;br>rooms.&lt;br>&lt;br>@param&amp;nbsp;rooms&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A&amp;nbsp;{@link&amp;nbsp;Set}&amp;nbsp;of&amp;nbsp;rooms,&amp;nbsp;should&amp;nbsp;not&amp;nbsp;be&amp;nbsp;&lt;code>null&lt;/code>.&lt;br>@return&amp;nbsp;A&amp;nbsp;random&amp;nbsp;{@link&amp;nbsp;Room}&amp;nbsp;from&amp;nbsp;the&amp;nbsp;passed&amp;nbsp;{@link&amp;nbsp;Set}&amp;nbsp;of&amp;nbsp;entries.</body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wLKCYV2oEeOHmfUKdmGZvA" name="ReturnParameter" type="_wFI58F2oEeOHmfUKdmGZvA" direction="return"/>
+                        <ownedParameter xmi:id="_wLLQgF2oEeOHmfUKdmGZvA" name="rooms" type="_wFI58F2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wLMeoV2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wLMeol2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wLLQgV2oEeOHmfUKdmGZvA" value="*"/>
+                          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wLL3kF2oEeOHmfUKdmGZvA"/>
+                        </ownedParameter>
+                      </ownedOperation>
+                    </packagedElement>
+                    <packagedElement xmi:type="uml:Interface" xmi:id="_wFZYoF2oEeOHmfUKdmGZvA" name="IRenderable">
+                      <ownedComment xmi:id="_wFZ_sF2oEeOHmfUKdmGZvA" annotatedElement="_wFZYoF2oEeOHmfUKdmGZvA">
+                        <body>This&amp;nbsp;interface&amp;nbsp;provides&amp;nbsp;a&amp;nbsp;render&amp;nbsp;method&amp;nbsp;to&amp;nbsp;be&amp;nbsp;implemented&amp;nbsp;by&amp;nbsp;classes&amp;nbsp;that&lt;br>like&amp;nbsp;to&amp;nbsp;print&amp;nbsp;or&amp;nbsp;visualize&amp;nbsp;themselves&amp;nbsp;in&amp;nbsp;some&amp;nbsp;form.&lt;br>&lt;br>@author&amp;nbsp;Mahdi&amp;nbsp;Derakhshanmanesh&amp;nbsp;{manesh@uni-koblenz.de}&lt;br></body>
+                      </ownedComment>
+                      <ownedOperation xmi:id="_wMAW8F2oEeOHmfUKdmGZvA" name="render" visibility="package">
+                        <ownedComment xmi:id="_wMAW8V2oEeOHmfUKdmGZvA" annotatedElement="_wMAW8F2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;method&amp;nbsp;visualizes&amp;nbsp;the&amp;nbsp;class&amp;nbsp;that&amp;nbsp;implements&amp;nbsp;this&amp;nbsp;interface&amp;nbsp;in&amp;nbsp;an&lt;br>adequate&amp;nbsp;way.</body>
+                        </ownedComment>
+                      </ownedOperation>
+                    </packagedElement>
+                    <packagedElement xmi:type="uml:Class" xmi:id="_wFll4F2oEeOHmfUKdmGZvA" name="NamedElement" isAbstract="true">
+                      <ownedComment xmi:id="_wFll4V2oEeOHmfUKdmGZvA" annotatedElement="_wFll4F2oEeOHmfUKdmGZvA">
+                        <body>This&amp;nbsp;abstract&amp;nbsp;class&amp;nbsp;provides&amp;nbsp;a&amp;nbsp;name&amp;nbsp;field&amp;nbsp;for&amp;nbsp;each&amp;nbsp;deriving&amp;nbsp;class.&lt;br>&lt;br>@author&amp;nbsp;Mahdi&amp;nbsp;Derakhshanmanesh&amp;nbsp;{manesh@uni-koblenz.de}&lt;br></body>
+                      </ownedComment>
+                      <ownedAttribute xmi:id="_wNJmcF2oEeOHmfUKdmGZvA" name="name" visibility="protected">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedAttribute>
+                      <ownedOperation xmi:id="_wNK0kF2oEeOHmfUKdmGZvA" name="NamedElement" visibility="public">
+                        <ownedComment xmi:id="_wNLboF2oEeOHmfUKdmGZvA" annotatedElement="_wNK0kF2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;constructor&amp;nbsp;sets&amp;nbsp;the&amp;nbsp;name&amp;nbsp;of&amp;nbsp;the&amp;nbsp;object&amp;nbsp;to&amp;nbsp;be&amp;nbsp;created.&lt;br>&lt;br>@param&amp;nbsp;name&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A&amp;nbsp;{@link&amp;nbsp;String}&amp;nbsp;that&amp;nbsp;may&amp;nbsp;not&amp;nbsp;be&amp;nbsp;null.&lt;br>&lt;br>@throws&amp;nbsp;IllegalArgumentException&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;If&amp;nbsp;passed&amp;nbsp;name&amp;nbsp;is&amp;nbsp;&lt;code>null&lt;/code>.</body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wNMpwF2oEeOHmfUKdmGZvA" name="name">
+                          <eAnnotations xmi:id="_wNMpwV2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wNNQ0F2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                        </ownedParameter>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wNNQ0V2oEeOHmfUKdmGZvA" name="findElementByNameInCollection" visibility="public" isLeaf="true" isStatic="true">
+                        <ownedComment xmi:id="_wNSJUF2oEeOHmfUKdmGZvA" annotatedElement="_wNNQ0V2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;method&amp;nbsp;searches&amp;nbsp;for&amp;nbsp;a&amp;nbsp;{@link&amp;nbsp;NamedElement}&amp;nbsp;or&amp;nbsp;deriving&amp;nbsp;type&amp;nbsp;in&amp;nbsp;a&lt;br>passed&amp;nbsp;{@link&amp;nbsp;Collection}.&lt;br>&lt;br>@param&amp;nbsp;name&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;name&amp;nbsp;of&amp;nbsp;the&amp;nbsp;element&amp;nbsp;to&amp;nbsp;look&amp;nbsp;for.&lt;br>@param&amp;nbsp;elements&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A&amp;nbsp;{@link&amp;nbsp;Collection}&amp;nbsp;of&amp;nbsp;elements.&lt;br>@return&amp;nbsp;The&amp;nbsp;found&amp;nbsp;element,&amp;nbsp;otherwise&amp;nbsp;&lt;code>null&lt;/code>.&lt;br>@throws&amp;nbsp;IllegalArgumentException&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;If&amp;nbsp;(name&amp;nbsp;==&amp;nbsp;null&amp;nbsp;||&amp;nbsp;elements&amp;nbsp;==&amp;nbsp;null&amp;nbsp;||&amp;nbsp;elems.isEmpty()).</body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wNSwYV2oEeOHmfUKdmGZvA" name="ReturnParameter" type="_wNN34V2oEeOHmfUKdmGZvA" direction="return"/>
+                        <ownedParameter xmi:id="_wNT-gF2oEeOHmfUKdmGZvA" name="name">
+                          <eAnnotations xmi:id="_wNUlkF2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wNUlkV2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                        </ownedParameter>
+                        <ownedParameter xmi:id="_wNUlkl2oEeOHmfUKdmGZvA" name="elements" type="_wNN34V2oEeOHmfUKdmGZvA" isUnique="false">
+                          <eAnnotations xmi:id="_wNWawF2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wNWawV2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wNVMoF2oEeOHmfUKdmGZvA" value="*"/>
+                          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wNVMoV2oEeOHmfUKdmGZvA"/>
+                        </ownedParameter>
+                        <ownedTemplateSignature xmi:id="_wNNQ0l2oEeOHmfUKdmGZvA" parameter="_wNN34F2oEeOHmfUKdmGZvA">
+                          <ownedParameter xmi:type="uml:ClassifierTemplateParameter" xmi:id="_wNN34F2oEeOHmfUKdmGZvA" parameteredElement="_wNN34V2oEeOHmfUKdmGZvA">
+                            <ownedParameteredElement xmi:type="uml:Class" xmi:id="_wNN34V2oEeOHmfUKdmGZvA" name="T" templateParameter="_wNN34F2oEeOHmfUKdmGZvA"/>
+                          </ownedParameter>
+                        </ownedTemplateSignature>
+                      </ownedOperation>
+                    </packagedElement>
+                    <packagedElement xmi:type="uml:Association" xmi:id="_wJcLIF2oEeOHmfUKdmGZvA" memberEnd="_wJa9AF2oEeOHmfUKdmGZvA _wJcLIV2oEeOHmfUKdmGZvA">
+                      <ownedEnd xmi:id="_wJcLIV2oEeOHmfUKdmGZvA" visibility="private" type="_wExtkF2oEeOHmfUKdmGZvA" association="_wJcLIF2oEeOHmfUKdmGZvA">
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wJcyMV2oEeOHmfUKdmGZvA" value="*"/>
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wJcyMF2oEeOHmfUKdmGZvA"/>
+                      </ownedEnd>
+                    </packagedElement>
+                    <packagedElement xmi:type="uml:Association" xmi:id="_wJf1gF2oEeOHmfUKdmGZvA" memberEnd="_wJeAUF2oEeOHmfUKdmGZvA _wJgckF2oEeOHmfUKdmGZvA">
+                      <ownedEnd xmi:id="_wJgckF2oEeOHmfUKdmGZvA" visibility="private" type="_wExtkF2oEeOHmfUKdmGZvA" association="_wJf1gF2oEeOHmfUKdmGZvA">
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wJhDoV2oEeOHmfUKdmGZvA" value="*"/>
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wJhDoF2oEeOHmfUKdmGZvA"/>
+                      </ownedEnd>
+                    </packagedElement>
+                    <packagedElement xmi:type="uml:Association" xmi:id="_wKFEUF2oEeOHmfUKdmGZvA" memberEnd="_wKDPIF2oEeOHmfUKdmGZvA _wKFrYF2oEeOHmfUKdmGZvA">
+                      <ownedEnd xmi:id="_wKFrYF2oEeOHmfUKdmGZvA" visibility="private" type="_wFI58F2oEeOHmfUKdmGZvA" association="_wKFEUF2oEeOHmfUKdmGZvA">
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wKod8F2oEeOHmfUKdmGZvA" value="*"/>
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wKFrYV2oEeOHmfUKdmGZvA"/>
+                      </ownedEnd>
+                    </packagedElement>
+                    <packagedElement xmi:type="uml:Association" xmi:id="_wKukkF2oEeOHmfUKdmGZvA" memberEnd="_wKpFAF2oEeOHmfUKdmGZvA _wKvLoF2oEeOHmfUKdmGZvA">
+                      <ownedEnd xmi:id="_wKvLoF2oEeOHmfUKdmGZvA" visibility="private" type="_wFI58F2oEeOHmfUKdmGZvA" association="_wKukkF2oEeOHmfUKdmGZvA">
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wKvysF2oEeOHmfUKdmGZvA" value="*"/>
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wKvLoV2oEeOHmfUKdmGZvA"/>
+                      </ownedEnd>
+                    </packagedElement>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_wFCzUV2oEeOHmfUKdmGZvA" name="TestDataGenerator">
+                    <ownedComment xmi:id="_wFDaYF2oEeOHmfUKdmGZvA" annotatedElement="_wFCzUV2oEeOHmfUKdmGZvA">
+                      <body>This&amp;nbsp;internal&amp;nbsp;class&amp;nbsp;contains&amp;nbsp;reusable&amp;nbsp;data&amp;nbsp;for&amp;nbsp;JUnit&amp;nbsp;test&amp;nbsp;cases.&lt;br>&lt;br>@author&amp;nbsp;Mahdi&amp;nbsp;Derakhshanmanesh&amp;nbsp;{manesh@uni-koblenz.de}&lt;br></body>
+                    </ownedComment>
+                    <ownedOperation xmi:id="_wF35wF2oEeOHmfUKdmGZvA" name="createSampleAccessRulesWithoutVIP" visibility="public" isStatic="true">
+                      <ownedComment xmi:id="_wF4g0F2oEeOHmfUKdmGZvA" annotatedElement="_wF35wF2oEeOHmfUKdmGZvA">
+                        <body>This&amp;nbsp;method&amp;nbsp;creates&amp;nbsp;a&amp;nbsp;{@link&amp;nbsp;Map}&amp;nbsp;with&amp;nbsp;person&amp;nbsp;role&amp;nbsp;names&amp;nbsp;and&amp;nbsp;a&lt;br>{@link&amp;nbsp;Set}&amp;nbsp;of&amp;nbsp;room&amp;nbsp;names&amp;nbsp;that&amp;nbsp;may&amp;nbsp;be&amp;nbsp;accessed&amp;nbsp;by&amp;nbsp;that&amp;nbsp;person.&amp;nbsp;The&amp;nbsp;data&lt;br>can&amp;nbsp;be&amp;nbsp;represented&amp;nbsp;textually&amp;nbsp;as&amp;nbsp;follows:&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>MANAGER&amp;nbsp;=>&amp;nbsp;MANAGEMENT_ROOM,&amp;nbsp;SEMINAR_ROOM&lt;br>&lt;br>&lt;br>ENGINEER&amp;nbsp;=>&amp;nbsp;ENGINEERING_ROOM_1,&amp;nbsp;ENGINEERING_ROOM_2,&amp;nbsp;ENGINEERING_ROOM_3,&lt;br>SEMINAR_ROOM&lt;br>&lt;br>&lt;br>ADMIN_STAFF&amp;nbsp;=>&amp;nbsp;MANAGEMENT_ROOM,&amp;nbsp;MAIN_OFFICE&lt;br>&lt;br>&lt;br>IT_STAFF&amp;nbsp;=>&amp;nbsp;IT_ROOM,&amp;nbsp;SEMINAR_ROOM&lt;br>&lt;br>&lt;br>GUEST&amp;nbsp;=>&amp;nbsp;SEMINAR_ROOM</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_wF5H4F2oEeOHmfUKdmGZvA" name="ReturnParameter" type="_wGouwF2oEeOHmfUKdmGZvA" direction="return">
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wIyD0V2oEeOHmfUKdmGZvA" value="*"/>
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wIyq4F2oEeOHmfUKdmGZvA"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_wJCigF2oEeOHmfUKdmGZvA" name="createSampleAccessRulesWithVIP" visibility="public" isStatic="true">
+                      <ownedParameter xmi:id="_wJCigV2oEeOHmfUKdmGZvA" name="ReturnParameter" type="_wGouwF2oEeOHmfUKdmGZvA" direction="return">
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wJDJkF2oEeOHmfUKdmGZvA" value="*"/>
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wJDJkV2oEeOHmfUKdmGZvA"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_wFEBcV2oEeOHmfUKdmGZvA" name="NamedElementTest">
+                    <ownedComment xmi:id="_wFEogF2oEeOHmfUKdmGZvA" annotatedElement="_wFEBcV2oEeOHmfUKdmGZvA">
+                      <body>This&amp;nbsp;JUnit&amp;nbsp;class&amp;nbsp;tests&amp;nbsp;the&amp;nbsp;functionality&amp;nbsp;provided&amp;nbsp;by&amp;nbsp;the&amp;nbsp;abstract&amp;nbsp;base&amp;nbsp;class&lt;br>{@link&amp;nbsp;NamedElement}.&lt;br>&lt;br>@author&amp;nbsp;Mahdi&amp;nbsp;Derakhshanmanesh&amp;nbsp;{manesh@uni-koblenz.de}&lt;br></body>
+                    </ownedComment>
+                    <ownedOperation xmi:id="_wJHbAF2oEeOHmfUKdmGZvA" name="test" visibility="public"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Package" xmi:id="_wFF2oF2oEeOHmfUKdmGZvA" name="access_control">
+                    <packagedElement xmi:type="uml:Class" xmi:id="_wFF2oV2oEeOHmfUKdmGZvA" name="AccessRulesCodeGenerator">
+                      <ownedComment xmi:id="_wFGdsF2oEeOHmfUKdmGZvA" annotatedElement="_wFF2oV2oEeOHmfUKdmGZvA">
+                        <body>This&amp;nbsp;class&amp;nbsp;implements&amp;nbsp;the&amp;nbsp;generation&amp;nbsp;of&amp;nbsp;access&amp;nbsp;control&amp;nbsp;rules&amp;nbsp;in&amp;nbsp;a&amp;nbsp;simple&lt;br>textual&amp;nbsp;notation.&amp;nbsp;No&amp;nbsp;comments&amp;nbsp;are&amp;nbsp;written,&amp;nbsp;just&amp;nbsp;pure&amp;nbsp;rules.&lt;br>&lt;br>@author&amp;nbsp;Mahdi&amp;nbsp;Derakhshanmanesh&amp;nbsp;{manesh@uni-koblenz.de}&lt;br></body>
+                      </ownedComment>
+                      <ownedAttribute xmi:id="_wJLFYF2oEeOHmfUKdmGZvA" name="THEN_SYMBOL" visibility="private" isLeaf="true" isStatic="true">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                        <defaultValue xmi:type="uml:LiteralString" xmi:id="_wJM6kF2oEeOHmfUKdmGZvA" value=" => "/>
+                      </ownedAttribute>
+                      <ownedAttribute xmi:id="_wJNhoF2oEeOHmfUKdmGZvA" name="accessRulesFile" visibility="private" isLeaf="true" association="_wJOvwF2oEeOHmfUKdmGZvA">
+                        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.io.File%5Bproject%5Eid=dac-simulation%5D$uml.Class"/>
+                      </ownedAttribute>
+                      <ownedOperation xmi:id="_wJQk8F2oEeOHmfUKdmGZvA" name="AccessRulesCodeGenerator" visibility="public">
+                        <ownedParameter xmi:id="_wJRMAF2oEeOHmfUKdmGZvA" name="accessRulesFile">
+                          <eAnnotations xmi:id="_wJRzEF2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wJSaIF2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.io.File%5Bproject%5Eid=dac-simulation%5D$uml.Class"/>
+                        </ownedParameter>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wJSaIV2oEeOHmfUKdmGZvA" name="run" visibility="public">
+                        <ownedParameter xmi:id="_wJTBMF2oEeOHmfUKdmGZvA" name="rules" type="_wJToQF2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wJXSoV2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wJXSol2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wJWEgV2oEeOHmfUKdmGZvA" value="*"/>
+                          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wJWrkF2oEeOHmfUKdmGZvA"/>
+                        </ownedParameter>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wJXSo12oEeOHmfUKdmGZvA" name="constructRulesString" visibility="public" isStatic="true">
+                        <ownedParameter xmi:id="_wJX5sF2oEeOHmfUKdmGZvA" name="ReturnParameter" direction="return">
+                          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                        </ownedParameter>
+                        <ownedParameter xmi:id="_wJZH0F2oEeOHmfUKdmGZvA" name="rules" type="_wJToQF2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wJaV8V2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wJaV8l2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wJZH0V2oEeOHmfUKdmGZvA" value="*"/>
+                          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wJZu4F2oEeOHmfUKdmGZvA"/>
+                        </ownedParameter>
+                      </ownedOperation>
+                    </packagedElement>
+                    <packagedElement xmi:type="uml:Class" xmi:id="_wFKIEF2oEeOHmfUKdmGZvA" name="AccessRulesParser">
+                      <ownedComment xmi:id="_wFKvIF2oEeOHmfUKdmGZvA" annotatedElement="_wFKIEF2oEeOHmfUKdmGZvA">
+                        <body>This&amp;nbsp;class&amp;nbsp;realizes&amp;nbsp;a&amp;nbsp;simple&amp;nbsp;parser&amp;nbsp;for&amp;nbsp;access&amp;nbsp;control&amp;nbsp;rules.&amp;nbsp;A&amp;nbsp;Rule&amp;nbsp;has&amp;nbsp;the&lt;br>form:&amp;nbsp;&quot;role&amp;nbsp;=>&amp;nbsp;allowedRoom1,&amp;nbsp;allowedRoom2,&amp;nbsp;...,&amp;nbsp;allowedRoomN&quot;.&amp;nbsp;The&amp;nbsp;parser&amp;nbsp;is&lt;br>able&amp;nbsp;to&amp;nbsp;identify&amp;nbsp;if&amp;nbsp;the&amp;nbsp;file&amp;nbsp;with&amp;nbsp;rules&amp;nbsp;changed&amp;nbsp;(using&amp;nbsp;its&amp;nbsp;timestamp).&lt;br>&lt;br>@author&amp;nbsp;Mahdi&amp;nbsp;Derakhshanmanesh&amp;nbsp;{manesh@uni-koblenz.de}&lt;br></body>
+                      </ownedComment>
+                      <ownedAttribute xmi:id="_wLNFsV2oEeOHmfUKdmGZvA" name="lastTimeStamp" visibility="private">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                      </ownedAttribute>
+                      <ownedAttribute xmi:id="_wLO64F2oEeOHmfUKdmGZvA" name="accessRulesFile" visibility="private" isLeaf="true" association="_wLQJAF2oEeOHmfUKdmGZvA">
+                        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.io.File%5Bproject%5Eid=dac-simulation%5D$uml.Class"/>
+                      </ownedAttribute>
+                      <ownedAttribute xmi:id="_wLRXIF2oEeOHmfUKdmGZvA" name="scan" visibility="private" association="_wLR-MF2oEeOHmfUKdmGZvA">
+                        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.Scanner%5Bproject%5Eid=dac-simulation%5D$uml.Class"/>
+                      </ownedAttribute>
+                      <ownedAttribute xmi:id="_wLTMUV2oEeOHmfUKdmGZvA" name="SINGLE_LINE_COMMENT" visibility="private" isLeaf="true" isStatic="true">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                        <defaultValue xmi:type="uml:LiteralString" xmi:id="_wLUacF2oEeOHmfUKdmGZvA" value="//"/>
+                      </ownedAttribute>
+                      <ownedOperation xmi:id="_wLVBgF2oEeOHmfUKdmGZvA" name="AccessRulesParser" visibility="public">
+                        <ownedComment xmi:id="_wLVokF2oEeOHmfUKdmGZvA" annotatedElement="_wLVBgF2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;constructor&amp;nbsp;creates&amp;nbsp;a&amp;nbsp;new&amp;nbsp;parser&amp;nbsp;and&amp;nbsp;initializes&amp;nbsp;the&amp;nbsp;{@link&amp;nbsp;Scanner}&lt;br>object&amp;nbsp;used&amp;nbsp;for&amp;nbsp;actually&amp;nbsp;reading&amp;nbsp;the&amp;nbsp;accessRulesFile.&lt;br>&lt;br>@param&amp;nbsp;accessRulesFile&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A&amp;nbsp;{@link&amp;nbsp;File}&amp;nbsp;that&amp;nbsp;may&amp;nbsp;not&amp;nbsp;be&amp;nbsp;&lt;code>null&lt;/code>&amp;nbsp;and&amp;nbsp;must&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;really&amp;nbsp;exist.&lt;br>@throws&amp;nbsp;FileNotFoundException&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;If&amp;nbsp;accessRulesFile&amp;nbsp;was&amp;nbsp;invalid&amp;nbsp;and&amp;nbsp;the&amp;nbsp;{@link&amp;nbsp;Scanner}&amp;nbsp;could&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;not&amp;nbsp;be&amp;nbsp;initialized.&lt;br>@throws&amp;nbsp;IllegalArgumentException&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;If&amp;nbsp;accessRulesFile&amp;nbsp;is&amp;nbsp;&lt;code>null&lt;/code>&amp;nbsp;or&amp;nbsp;does&amp;nbsp;not&amp;nbsp;exist.</body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wLW2sF2oEeOHmfUKdmGZvA" name="accessRulesFile">
+                          <eAnnotations xmi:id="_wLXdwF2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wLXdwV2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.io.File%5Bproject%5Eid=dac-simulation%5D$uml.Class"/>
+                        </ownedParameter>
+                        <raisedException xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.io.FileNotFoundException%5Bproject%5Eid=dac-simulation%5D$uml.Class"/>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wLXdwl2oEeOHmfUKdmGZvA" name="reset" visibility="public">
+                        <ownedComment xmi:id="_wLYE0F2oEeOHmfUKdmGZvA" annotatedElement="_wLXdwl2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;method&amp;nbsp;initiates&amp;nbsp;a&amp;nbsp;new&amp;nbsp;{@link&amp;nbsp;Scanner}&amp;nbsp;object&amp;nbsp;for&amp;nbsp;parsing&amp;nbsp;the&amp;nbsp;access&lt;br>control&amp;nbsp;rules&amp;nbsp;again.&lt;br>&lt;br>@throws&amp;nbsp;RuntimeException&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;If&amp;nbsp;the&amp;nbsp;internally&amp;nbsp;handled&amp;nbsp;accessRulesFile&amp;nbsp;are&amp;nbsp;invalid&amp;nbsp;for&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;some&amp;nbsp;(unlikely)&amp;nbsp;reason.</body>
+                        </ownedComment>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wLZS8F2oEeOHmfUKdmGZvA" name="hasNextRulePotentially" visibility="public">
+                        <ownedComment xmi:id="_wLZ6AF2oEeOHmfUKdmGZvA" annotatedElement="_wLZS8F2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;method&amp;nbsp;checks&amp;nbsp;if&amp;nbsp;there&amp;nbsp;is&amp;nbsp;a&amp;nbsp;new&amp;nbsp;line&amp;nbsp;to&amp;nbsp;be&amp;nbsp;parsed.&amp;nbsp;Potentially,&amp;nbsp;in&lt;br>this&amp;nbsp;line&amp;nbsp;a&amp;nbsp;new&amp;nbsp;rule&amp;nbsp;is&amp;nbsp;encoded.&amp;nbsp;The&amp;nbsp;line&amp;nbsp;may&amp;nbsp;be&amp;nbsp;empty&amp;nbsp;though&amp;nbsp;or&amp;nbsp;may&lt;br>contain&amp;nbsp;a&amp;nbsp;comment&amp;nbsp;-&amp;nbsp;thus&amp;nbsp;it&amp;nbsp;is&amp;nbsp;only&amp;nbsp;&quot;potentially&quot;&amp;nbsp;the&amp;nbsp;next&amp;nbsp;rule.&lt;br>&lt;br>@return&amp;nbsp;&lt;code>true&lt;/code>&amp;nbsp;if&amp;nbsp;there&amp;nbsp;is&amp;nbsp;a&amp;nbsp;new&amp;nbsp;line&amp;nbsp;to&amp;nbsp;be&amp;nbsp;parsed&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(independent&amp;nbsp;from&amp;nbsp;its&amp;nbsp;content),&amp;nbsp;otherwise&amp;nbsp;&lt;code>false&lt;/code>.</body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wLahEV2oEeOHmfUKdmGZvA" name="ReturnParameter" direction="return">
+                          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                        </ownedParameter>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wLbvMF2oEeOHmfUKdmGZvA" name="parseNextRule" visibility="public">
+                        <ownedComment xmi:id="_wLbvMV2oEeOHmfUKdmGZvA" annotatedElement="_wLbvMF2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;method&amp;nbsp;parses&amp;nbsp;the&amp;nbsp;next&amp;nbsp;line&amp;nbsp;available&amp;nbsp;and&amp;nbsp;returns&amp;nbsp;the&amp;nbsp;rule&amp;nbsp;in&amp;nbsp;the&lt;br>form&amp;nbsp;of&amp;nbsp;a&amp;nbsp;{@link&amp;nbsp;Map}&amp;nbsp;(Role&amp;nbsp;->&amp;nbsp;{Room.name}).&lt;br>&lt;br>@return&amp;nbsp;A&amp;nbsp;{@link&amp;nbsp;Map}&amp;nbsp;representation&amp;nbsp;of&amp;nbsp;the&amp;nbsp;parsed&amp;nbsp;single&amp;nbsp;rule,&amp;nbsp;otherwise&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;code>null&lt;/code>&amp;nbsp;(e.g.,&amp;nbsp;if&amp;nbsp;no&amp;nbsp;rule&amp;nbsp;exists,&amp;nbsp;the&amp;nbsp;line&amp;nbsp;is&amp;nbsp;empty&amp;nbsp;or&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;a&amp;nbsp;comment).</body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wLc9UF2oEeOHmfUKdmGZvA" name="ReturnParameter" type="_wJToQF2oEeOHmfUKdmGZvA" direction="return">
+                          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wLc9UV2oEeOHmfUKdmGZvA" value="*"/>
+                          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wLdkYF2oEeOHmfUKdmGZvA"/>
+                        </ownedParameter>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wLeygF2oEeOHmfUKdmGZvA" name="rulesFileChanged" visibility="public">
+                        <ownedComment xmi:id="_wLfZkF2oEeOHmfUKdmGZvA" annotatedElement="_wLeygF2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;method&amp;nbsp;checks&amp;nbsp;if&amp;nbsp;the&amp;nbsp;file&amp;nbsp;with&amp;nbsp;access&amp;nbsp;control&amp;nbsp;rules&amp;nbsp;changed,&amp;nbsp;based&lt;br>on&amp;nbsp;its&amp;nbsp;timestamp&amp;nbsp;of&amp;nbsp;the&amp;nbsp;last&amp;nbsp;modification.&lt;br>&lt;br>@return&amp;nbsp;&lt;code>true&lt;/code>&amp;nbsp;if&amp;nbsp;the&amp;nbsp;file&amp;nbsp;with&amp;nbsp;rules&amp;nbsp;changed&amp;nbsp;compared&amp;nbsp;to&amp;nbsp;last&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;check,&amp;nbsp;otherwise&amp;nbsp;&lt;code>false&lt;/code>.</body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wLgnsF2oEeOHmfUKdmGZvA" name="ReturnParameter" direction="return">
+                          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                        </ownedParameter>
+                      </ownedOperation>
+                    </packagedElement>
+                    <packagedElement xmi:type="uml:Class" xmi:id="_wFPAkV2oEeOHmfUKdmGZvA" name="AccessController">
+                      <ownedComment xmi:id="_wFPnoF2oEeOHmfUKdmGZvA" annotatedElement="_wFPAkV2oEeOHmfUKdmGZvA">
+                        <body>This&amp;nbsp;class&amp;nbsp;realizes&amp;nbsp;a&amp;nbsp;virtual&amp;nbsp;access&amp;nbsp;controller&amp;nbsp;that&amp;nbsp;checks&amp;nbsp;whether&amp;nbsp;a&amp;nbsp;person&lt;br>in&amp;nbsp;a&amp;nbsp;certain&amp;nbsp;role&amp;nbsp;is&amp;nbsp;allowed&amp;nbsp;to&amp;nbsp;access&amp;nbsp;a&amp;nbsp;certain&amp;nbsp;room&amp;nbsp;or&amp;nbsp;not.&amp;nbsp;Rules&amp;nbsp;are&lt;br>encoded&amp;nbsp;in&amp;nbsp;a&amp;nbsp;simple&amp;nbsp;textual&amp;nbsp;DSL&amp;nbsp;(&quot;role&amp;nbsp;=>&amp;nbsp;allowedRoom1,&amp;nbsp;allowedRoom2,&amp;nbsp;...,&lt;br>allowedRoomN&quot;).&lt;br>&lt;br>@author&amp;nbsp;Mahdi&amp;nbsp;Derakhshanmanesh&amp;nbsp;{manesh@uni-koblenz.de}&lt;br></body>
+                      </ownedComment>
+                      <ownedAttribute xmi:id="_wMzoMF2oEeOHmfUKdmGZvA" name="accessRulesFile" visibility="private" isLeaf="true" association="_wM02UF2oEeOHmfUKdmGZvA">
+                        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.io.File%5Bproject%5Eid=dac-simulation%5D$uml.Class"/>
+                      </ownedAttribute>
+                      <ownedAttribute xmi:id="_wM2EcF2oEeOHmfUKdmGZvA" name="rulesParser" visibility="private" isLeaf="true" type="_wFKIEF2oEeOHmfUKdmGZvA" association="_wM2rgF2oEeOHmfUKdmGZvA"/>
+                      <ownedAttribute xmi:id="_wM35oF2oEeOHmfUKdmGZvA" name="role2AllowedRooms" visibility="private" isLeaf="true" type="_wJToQF2oEeOHmfUKdmGZvA" association="_wM5u0F2oEeOHmfUKdmGZvA">
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wM35oV2oEeOHmfUKdmGZvA" value="*"/>
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wM35ol2oEeOHmfUKdmGZvA"/>
+                      </ownedAttribute>
+                      <ownedAttribute xmi:id="_wM6V4l2oEeOHmfUKdmGZvA" name="rulesCodeGen" visibility="private" isLeaf="true" type="_wFF2oV2oEeOHmfUKdmGZvA" association="_wM7kAF2oEeOHmfUKdmGZvA"/>
+                      <ownedAttribute xmi:id="_wM8LEl2oEeOHmfUKdmGZvA" name="currentAccessControlRules" visibility="public" type="_wJToQF2oEeOHmfUKdmGZvA" isReadOnly="true" isDerived="true">
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wM8yIF2oEeOHmfUKdmGZvA" value="*"/>
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wM8yIV2oEeOHmfUKdmGZvA"/>
+                      </ownedAttribute>
+                      <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_wFQOsV2oEeOHmfUKdmGZvA" name="ChangeEventType">
+                        <ownedComment xmi:id="_wFQ1wF2oEeOHmfUKdmGZvA" annotatedElement="_wFQOsV2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;enum&amp;nbsp;type&amp;nbsp;defines&amp;nbsp;a&amp;nbsp;set&amp;nbsp;of&amp;nbsp;events&amp;nbsp;the&amp;nbsp;{@link&amp;nbsp;AccessController}&amp;nbsp;can&lt;br>handle&amp;nbsp;properly.</body>
+                        </ownedComment>
+                        <ownedLiteral xmi:id="_wL-hwF2oEeOHmfUKdmGZvA" name="VIP_ARRIVAL_REGISTERED" classifier="_wFQOsV2oEeOHmfUKdmGZvA"/>
+                        <ownedLiteral xmi:id="_wL_I0F2oEeOHmfUKdmGZvA" name="VIP_DEPARTURE_REGISTERED" classifier="_wFQOsV2oEeOHmfUKdmGZvA"/>
+                      </nestedClassifier>
+                      <ownedOperation xmi:id="_wM9ZMV2oEeOHmfUKdmGZvA" name="AccessController" visibility="public">
+                        <ownedComment xmi:id="_wM-AQF2oEeOHmfUKdmGZvA" annotatedElement="_wM9ZMV2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;constructor&amp;nbsp;creates&amp;nbsp;the&amp;nbsp;internally&amp;nbsp;needed&amp;nbsp;parser&amp;nbsp;and&amp;nbsp;the&amp;nbsp;internal&lt;br>data&amp;nbsp;structure&amp;nbsp;for&amp;nbsp;storing&amp;nbsp;accessible&amp;nbsp;rooms&amp;nbsp;per&amp;nbsp;role.&lt;br>&lt;br>@param&amp;nbsp;accessRules&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;location&amp;nbsp;of&amp;nbsp;a&amp;nbsp;text&amp;nbsp;file&amp;nbsp;with&amp;nbsp;access&amp;nbsp;rules.&lt;br>@throws&amp;nbsp;FileNotFoundException&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;If&amp;nbsp;the&amp;nbsp;passed&amp;nbsp;accessRules&amp;nbsp;is&amp;nbsp;invalid&amp;nbsp;and&amp;nbsp;no&amp;nbsp;{@link&amp;nbsp;Scanner}&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;can&amp;nbsp;be&amp;nbsp;created.&amp;nbsp;FIXME&amp;nbsp;Shall&amp;nbsp;this&amp;nbsp;be&amp;nbsp;handled&amp;nbsp;internally&amp;nbsp;at&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this&amp;nbsp;point?&lt;br>@throws&amp;nbsp;IllegalArgumentException&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;If&amp;nbsp;the&amp;nbsp;path&amp;nbsp;of&amp;nbsp;accessRules&amp;nbsp;is&amp;nbsp;invalid&amp;nbsp;(e.g.,&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;code>null&lt;/code>&amp;nbsp;or&amp;nbsp;the&amp;nbsp;empty&amp;nbsp;string).</body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wM_OYF2oEeOHmfUKdmGZvA" name="accessRules">
+                          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                        </ownedParameter>
+                        <raisedException xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.io.FileNotFoundException%5Bproject%5Eid=dac-simulation%5D$uml.Class"/>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wM_1cF2oEeOHmfUKdmGZvA" name="isAllowedToAccess" visibility="public">
+                        <ownedComment xmi:id="_wNAcgF2oEeOHmfUKdmGZvA" annotatedElement="_wM_1cF2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;method&amp;nbsp;checks&amp;nbsp;if&amp;nbsp;a&amp;nbsp;{@link&amp;nbsp;Person}&amp;nbsp;is&amp;nbsp;allowed&amp;nbsp;to&amp;nbsp;access&amp;nbsp;a&amp;nbsp;certain&lt;br>{@link&amp;nbsp;Room}&amp;nbsp;according&amp;nbsp;to&amp;nbsp;the&amp;nbsp;internal&amp;nbsp;representation&amp;nbsp;of&amp;nbsp;access&amp;nbsp;rules.&lt;br>&lt;br>@param&amp;nbsp;p&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;{@link&amp;nbsp;Person}&amp;nbsp;to&amp;nbsp;check&amp;nbsp;by&amp;nbsp;role.&lt;br>@param&amp;nbsp;r&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;{@link&amp;nbsp;Room}&amp;nbsp;to&amp;nbsp;be&amp;nbsp;accessed&amp;nbsp;by&amp;nbsp;the&amp;nbsp;{@link&amp;nbsp;Person}.&lt;br>@return&amp;nbsp;&lt;code>true&lt;/code>&amp;nbsp;if&amp;nbsp;p&amp;nbsp;may&amp;nbsp;enter,&amp;nbsp;otherwise&amp;nbsp;&lt;code>false&lt;/code>.</body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wNBDkV2oEeOHmfUKdmGZvA" name="ReturnParameter" direction="return">
+                          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                        </ownedParameter>
+                        <ownedParameter xmi:id="_wNCRsF2oEeOHmfUKdmGZvA" name="p" type="_wExtkF2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wNCRsV2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wNCRsl2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                        </ownedParameter>
+                        <ownedParameter xmi:id="_wNCRs12oEeOHmfUKdmGZvA" name="r" type="_wFI58F2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wNC4wF2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wNC4wV2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                        </ownedParameter>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wNC4wl2oEeOHmfUKdmGZvA" name="sendEvent" visibility="public">
+                        <ownedComment xmi:id="_wNDf0F2oEeOHmfUKdmGZvA" annotatedElement="_wNC4wl2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;method&amp;nbsp;handles&amp;nbsp;incoming&amp;nbsp;change&amp;nbsp;events&amp;nbsp;and&amp;nbsp;reacts&amp;nbsp;accordingly&amp;nbsp;by&lt;br>adapting&amp;nbsp;the&amp;nbsp;parsed&amp;nbsp;access&amp;nbsp;control&amp;nbsp;rules.&lt;br>&lt;br>TODO&amp;nbsp;The&amp;nbsp;rules&amp;nbsp;file&amp;nbsp;should&amp;nbsp;be&amp;nbsp;only&amp;nbsp;updated&amp;nbsp;on&amp;nbsp;request&amp;nbsp;to&amp;nbsp;avoid&amp;nbsp;file&lt;br>writing&amp;nbsp;overhead.&amp;nbsp;It&amp;nbsp;shall&amp;nbsp;be&amp;nbsp;also&amp;nbsp;possible&amp;nbsp;to&amp;nbsp;commit&amp;nbsp;a&amp;nbsp;manually&amp;nbsp;edited&lt;br>file&amp;nbsp;and&amp;nbsp;to&amp;nbsp;parse&amp;nbsp;it.&lt;br>&lt;br>@param&amp;nbsp;event&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;{@link&amp;nbsp;ChangeEventType}&amp;nbsp;to&amp;nbsp;handle.&amp;nbsp;Currently,&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{@link&amp;nbsp;ChangeEventType#VIP_ARRIVAL_REGISTERED}&amp;nbsp;and&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{@link&amp;nbsp;ChangeEventType#VIP_DEPARTURE_REGISTERED}&amp;nbsp;are&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;supported.&lt;br>@param&amp;nbsp;currVIPLocation&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;{@link&amp;nbsp;Room}&amp;nbsp;the&amp;nbsp;VIP&amp;nbsp;is&amp;nbsp;in&amp;nbsp;at&amp;nbsp;the&amp;nbsp;moment.&lt;br>@throws&amp;nbsp;IllegalArgumentException&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;event&amp;nbsp;is&amp;nbsp;&lt;code>null&lt;/code>&amp;nbsp;or&amp;nbsp;an&amp;nbsp;unknown&amp;nbsp;type.</body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wNEt8F2oEeOHmfUKdmGZvA" name="event" type="_wFQOsV2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wNFVAF2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wNFVAV2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                        </ownedParameter>
+                        <ownedParameter xmi:id="_wNFVAl2oEeOHmfUKdmGZvA" name="currVIPLocation" type="_wFI58F2oEeOHmfUKdmGZvA"/>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wNF8EF2oEeOHmfUKdmGZvA" name="checkAccessRulesForRole" visibility="public">
+                        <ownedParameter xmi:id="_wNF8EV2oEeOHmfUKdmGZvA" name="ReturnParameter" direction="return">
+                          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                        </ownedParameter>
+                        <ownedParameter xmi:id="_wNHKMF2oEeOHmfUKdmGZvA" name="rt" type="_wFA-IF2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wNHxQF2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wNHxQV2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                        </ownedParameter>
+                        <ownedParameter xmi:id="_wNHxQl2oEeOHmfUKdmGZvA" name="r" type="_wFI58F2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wNIYUF2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wNIYUV2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                        </ownedParameter>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wNIYUl2oEeOHmfUKdmGZvA" name="updateRulesInMemory" visibility="private"/>
+                    </packagedElement>
+                    <packagedElement xmi:type="uml:Association" xmi:id="_wJOvwF2oEeOHmfUKdmGZvA" memberEnd="_wJNhoF2oEeOHmfUKdmGZvA _wJPW0F2oEeOHmfUKdmGZvA">
+                      <ownedEnd xmi:id="_wJPW0F2oEeOHmfUKdmGZvA" visibility="private" type="_wFF2oV2oEeOHmfUKdmGZvA" association="_wJOvwF2oEeOHmfUKdmGZvA">
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wJP94V2oEeOHmfUKdmGZvA" value="*"/>
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wJP94F2oEeOHmfUKdmGZvA"/>
+                      </ownedEnd>
+                    </packagedElement>
+                    <packagedElement xmi:type="uml:Interface" xmi:id="_wJToQF2oEeOHmfUKdmGZvA" name="Set&lt;String>">
+                      <templateBinding xmi:id="_wJU2YV2oEeOHmfUKdmGZvA">
+                        <signature xmi:type="uml:RedefinableTemplateSignature" href="mmi:///#jtsig%5Ename=Set%5Bjbintype%5Ename=java.util.Set%5Bproject%5Eid=dac-simulation%5D%5D$uml.RedefinableTemplateSignature"/>
+                        <parameterSubstitution xmi:id="_wJVdcF2oEeOHmfUKdmGZvA" actual="_wJVdcV2oEeOHmfUKdmGZvA">
+                          <formal xmi:type="uml:ClassifierTemplateParameter" href="mmi:///#jtp%5Ename=E%5Bjbintype%5Ename=java.util.Set%5Bproject%5Eid=dac-simulation%5D%5D$uml.ClassifierTemplateParameter"/>
+                          <ownedActual xmi:type="uml:Class" xmi:id="_wJVdcV2oEeOHmfUKdmGZvA" name="String"/>
+                        </parameterSubstitution>
+                      </templateBinding>
+                    </packagedElement>
+                    <packagedElement xmi:type="uml:Association" xmi:id="_wLQJAF2oEeOHmfUKdmGZvA" memberEnd="_wLO64F2oEeOHmfUKdmGZvA _wLQJAV2oEeOHmfUKdmGZvA">
+                      <ownedEnd xmi:id="_wLQJAV2oEeOHmfUKdmGZvA" visibility="private" type="_wFKIEF2oEeOHmfUKdmGZvA" association="_wLQJAF2oEeOHmfUKdmGZvA">
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wLQwEV2oEeOHmfUKdmGZvA" value="*"/>
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wLQwEF2oEeOHmfUKdmGZvA"/>
+                      </ownedEnd>
+                    </packagedElement>
+                    <packagedElement xmi:type="uml:Association" xmi:id="_wLR-MF2oEeOHmfUKdmGZvA" memberEnd="_wLRXIF2oEeOHmfUKdmGZvA _wLSlQF2oEeOHmfUKdmGZvA">
+                      <ownedEnd xmi:id="_wLSlQF2oEeOHmfUKdmGZvA" visibility="private" type="_wFKIEF2oEeOHmfUKdmGZvA" association="_wLR-MF2oEeOHmfUKdmGZvA">
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wLTMUF2oEeOHmfUKdmGZvA" value="*"/>
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wLSlQV2oEeOHmfUKdmGZvA"/>
+                      </ownedEnd>
+                    </packagedElement>
+                    <packagedElement xmi:type="uml:Association" xmi:id="_wM02UF2oEeOHmfUKdmGZvA" memberEnd="_wMzoMF2oEeOHmfUKdmGZvA _wM02UV2oEeOHmfUKdmGZvA">
+                      <ownedEnd xmi:id="_wM02UV2oEeOHmfUKdmGZvA" visibility="private" type="_wFPAkV2oEeOHmfUKdmGZvA" association="_wM02UF2oEeOHmfUKdmGZvA">
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wM1dYV2oEeOHmfUKdmGZvA" value="*"/>
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wM1dYF2oEeOHmfUKdmGZvA"/>
+                      </ownedEnd>
+                    </packagedElement>
+                    <packagedElement xmi:type="uml:Association" xmi:id="_wM2rgF2oEeOHmfUKdmGZvA" memberEnd="_wM2EcF2oEeOHmfUKdmGZvA _wM2rgV2oEeOHmfUKdmGZvA">
+                      <ownedEnd xmi:id="_wM2rgV2oEeOHmfUKdmGZvA" visibility="private" type="_wFPAkV2oEeOHmfUKdmGZvA" association="_wM2rgF2oEeOHmfUKdmGZvA">
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wM3SkV2oEeOHmfUKdmGZvA" value="*"/>
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wM3SkF2oEeOHmfUKdmGZvA"/>
+                      </ownedEnd>
+                    </packagedElement>
+                    <packagedElement xmi:type="uml:Association" xmi:id="_wM5u0F2oEeOHmfUKdmGZvA" memberEnd="_wM35oF2oEeOHmfUKdmGZvA _wM5u0V2oEeOHmfUKdmGZvA">
+                      <ownedEnd xmi:id="_wM5u0V2oEeOHmfUKdmGZvA" visibility="private" type="_wFPAkV2oEeOHmfUKdmGZvA" association="_wM5u0F2oEeOHmfUKdmGZvA">
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wM6V4V2oEeOHmfUKdmGZvA" value="*"/>
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wM6V4F2oEeOHmfUKdmGZvA"/>
+                      </ownedEnd>
+                    </packagedElement>
+                    <packagedElement xmi:type="uml:Association" xmi:id="_wM7kAF2oEeOHmfUKdmGZvA" memberEnd="_wM6V4l2oEeOHmfUKdmGZvA _wM7kAV2oEeOHmfUKdmGZvA">
+                      <ownedEnd xmi:id="_wM7kAV2oEeOHmfUKdmGZvA" visibility="private" type="_wFPAkV2oEeOHmfUKdmGZvA" association="_wM7kAF2oEeOHmfUKdmGZvA">
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wM8LEV2oEeOHmfUKdmGZvA" value="*"/>
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wM8LEF2oEeOHmfUKdmGZvA"/>
+                      </ownedEnd>
+                    </packagedElement>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_wFHEwV2oEeOHmfUKdmGZvA" name="Util">
+                    <ownedComment xmi:id="_wFHr0F2oEeOHmfUKdmGZvA" annotatedElement="_wFHEwV2oEeOHmfUKdmGZvA">
+                      <body>This&amp;nbsp;class&amp;nbsp;provides&amp;nbsp;a&amp;nbsp;collection&amp;nbsp;of&amp;nbsp;static&amp;nbsp;utility&amp;nbsp;methods&amp;nbsp;to&amp;nbsp;be&amp;nbsp;used&amp;nbsp;in&amp;nbsp;the&lt;br>simulation.&lt;br>&lt;br>@author&amp;nbsp;Mahdi&amp;nbsp;Derakhshanmanesh&amp;nbsp;{manesh@uni-koblenz.de}&lt;br></body>
+                    </ownedComment>
+                    <ownedOperation xmi:id="_wJ6sQF2oEeOHmfUKdmGZvA" name="getRandomEntryFromSet" visibility="public" isLeaf="true" isStatic="true">
+                      <ownedComment xmi:id="_wJ9IgF2oEeOHmfUKdmGZvA" annotatedElement="_wJ6sQF2oEeOHmfUKdmGZvA">
+                        <body>This&amp;nbsp;method&amp;nbsp;returns&amp;nbsp;a&amp;nbsp;new&amp;nbsp;element&amp;nbsp;from&amp;nbsp;the&amp;nbsp;set&amp;nbsp;of&amp;nbsp;entries&amp;nbsp;passed.&lt;br>&lt;br>@param&amp;nbsp;entries&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A&amp;nbsp;valid&amp;nbsp;set&amp;nbsp;of&amp;nbsp;entries&amp;nbsp;of&amp;nbsp;type&amp;nbsp;T.&amp;nbsp;May&amp;nbsp;not&amp;nbsp;be&amp;nbsp;null,&amp;nbsp;otherwise&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;an&amp;nbsp;{@link&amp;nbsp;IllegalArgumentException}&amp;nbsp;is&amp;nbsp;thrown.&lt;br>@return&amp;nbsp;A&amp;nbsp;random&amp;nbsp;element&amp;nbsp;from&amp;nbsp;the&amp;nbsp;passed&amp;nbsp;set&amp;nbsp;of&amp;nbsp;entries.&lt;br>@throws&amp;nbsp;IllegalArgumentException&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;If&amp;nbsp;entries&amp;nbsp;is&amp;nbsp;&lt;code>null&lt;/code>.</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_wJ-WoF2oEeOHmfUKdmGZvA" name="ReturnParameter" type="_wJ8hcV2oEeOHmfUKdmGZvA" direction="return"/>
+                      <ownedParameter xmi:id="_wJ-9sF2oEeOHmfUKdmGZvA" name="entries" type="_wJ8hcV2oEeOHmfUKdmGZvA">
+                        <eAnnotations xmi:id="_wKAL0V2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                          <details xmi:id="_wKAy4F2oEeOHmfUKdmGZvA" key="final"/>
+                        </eAnnotations>
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wJ_kwF2oEeOHmfUKdmGZvA" value="*"/>
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wJ_kwV2oEeOHmfUKdmGZvA"/>
+                      </ownedParameter>
+                      <ownedTemplateSignature xmi:id="_wJ76YF2oEeOHmfUKdmGZvA" parameter="_wJ8hcF2oEeOHmfUKdmGZvA">
+                        <ownedParameter xmi:type="uml:ClassifierTemplateParameter" xmi:id="_wJ8hcF2oEeOHmfUKdmGZvA" parameteredElement="_wJ8hcV2oEeOHmfUKdmGZvA">
+                          <ownedParameteredElement xmi:type="uml:Class" xmi:id="_wJ8hcV2oEeOHmfUKdmGZvA" name="T" templateParameter="_wJ8hcF2oEeOHmfUKdmGZvA"/>
+                        </ownedParameter>
+                      </ownedTemplateSignature>
+                    </ownedOperation>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_wFNycF2oEeOHmfUKdmGZvA" name="Simulation" clientDependency="_wL96sF2oEeOHmfUKdmGZvA">
+                    <ownedComment xmi:id="_wFOZgF2oEeOHmfUKdmGZvA" annotatedElement="_wFNycF2oEeOHmfUKdmGZvA">
+                      <body>This&amp;nbsp;class&amp;nbsp;contains&amp;nbsp;the&amp;nbsp;main&amp;nbsp;method&amp;nbsp;to&amp;nbsp;run&amp;nbsp;the&amp;nbsp;simulation.&amp;nbsp;The&amp;nbsp;main&amp;nbsp;logic&amp;nbsp;of&lt;br>the&amp;nbsp;simulation&amp;nbsp;is&amp;nbsp;that&amp;nbsp;a&amp;nbsp;set&amp;nbsp;of&amp;nbsp;persons&amp;nbsp;exist&amp;nbsp;with&amp;nbsp;their&amp;nbsp;assigned&amp;nbsp;roles.&lt;br>There&amp;nbsp;are&amp;nbsp;different&amp;nbsp;types&amp;nbsp;of&amp;nbsp;rooms&amp;nbsp;and&amp;nbsp;there&amp;nbsp;are&amp;nbsp;access&amp;nbsp;control&amp;nbsp;rules&lt;br>according&amp;nbsp;to&amp;nbsp;which&amp;nbsp;a&amp;nbsp;person&amp;nbsp;may&amp;nbsp;enter&amp;nbsp;the&amp;nbsp;room&amp;nbsp;or&amp;nbsp;not.&amp;nbsp;The&amp;nbsp;simulation&amp;nbsp;runs&lt;br>infinitely&amp;nbsp;and&amp;nbsp;chooses&amp;nbsp;one&amp;nbsp;person&amp;nbsp;each&amp;nbsp;step&amp;nbsp;and&amp;nbsp;tries&amp;nbsp;to&amp;nbsp;move&amp;nbsp;him/her&amp;nbsp;to&amp;nbsp;a&lt;br>new&amp;nbsp;room.&amp;nbsp;The&amp;nbsp;set&amp;nbsp;of&amp;nbsp;rules&amp;nbsp;is&amp;nbsp;checked,&amp;nbsp;then.&amp;nbsp;The&amp;nbsp;person&amp;nbsp;is&amp;nbsp;only&amp;nbsp;moved&amp;nbsp;to&lt;br>another&amp;nbsp;room&amp;nbsp;if&amp;nbsp;the&amp;nbsp;rules&amp;nbsp;allow&amp;nbsp;this.&amp;nbsp;Rules&amp;nbsp;are&amp;nbsp;written&amp;nbsp;in&amp;nbsp;a&amp;nbsp;small&amp;nbsp;custom&amp;nbsp;DSL&lt;br>and&amp;nbsp;the&amp;nbsp;rules&amp;nbsp;are&amp;nbsp;placed&amp;nbsp;in&amp;nbsp;&quot;access-rules.txt&quot;.&lt;br>&lt;br>The&amp;nbsp;whole&amp;nbsp;setup&amp;nbsp;is&amp;nbsp;derived&amp;nbsp;from&amp;nbsp;our&amp;nbsp;published&amp;nbsp;DSPL&amp;nbsp;12'&amp;nbsp;concept&amp;nbsp;paper.&lt;br>&lt;br>@author&amp;nbsp;Mahdi&amp;nbsp;Derakhshanmanesh&amp;nbsp;{manesh@uni-koblenz.de}&lt;br></body>
+                    </ownedComment>
+                    <ownedAttribute xmi:id="_wLh10F2oEeOHmfUKdmGZvA" name="rooms" visibility="private" isLeaf="true" type="_wFI58F2oEeOHmfUKdmGZvA" association="_wLjrAF2oEeOHmfUKdmGZvA">
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wLh10V2oEeOHmfUKdmGZvA" value="*"/>
+                      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wLic4F2oEeOHmfUKdmGZvA"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:id="_wLk5IF2oEeOHmfUKdmGZvA" name="persons" visibility="private" isLeaf="true" type="_wExtkF2oEeOHmfUKdmGZvA" association="_wLmuUF2oEeOHmfUKdmGZvA">
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wLk5IV2oEeOHmfUKdmGZvA" value="*"/>
+                      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wLk5Il2oEeOHmfUKdmGZvA"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:id="_wLn8cF2oEeOHmfUKdmGZvA" name="accessController" visibility="private" isLeaf="true" type="_wFPAkV2oEeOHmfUKdmGZvA" association="_wLojgF2oEeOHmfUKdmGZvA"/>
+                    <interfaceRealization xmi:id="_wL96sF2oEeOHmfUKdmGZvA" supplier="_wFZYoF2oEeOHmfUKdmGZvA" client="_wFNycF2oEeOHmfUKdmGZvA" contract="_wFZYoF2oEeOHmfUKdmGZvA"/>
+                    <ownedOperation xmi:id="_wLqYsF2oEeOHmfUKdmGZvA" name="main" visibility="public" isStatic="true">
+                      <ownedComment xmi:id="_wLqYsV2oEeOHmfUKdmGZvA" annotatedElement="_wLqYsF2oEeOHmfUKdmGZvA">
+                        <body>This&amp;nbsp;method&amp;nbsp;runs&amp;nbsp;the&amp;nbsp;simulation.&lt;br>&lt;br>@param&amp;nbsp;args&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;This&amp;nbsp;param&amp;nbsp;is&amp;nbsp;ignored.</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_wLsN4F2oEeOHmfUKdmGZvA" name="args">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wLs08F2oEeOHmfUKdmGZvA" value="*"/>
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wLs08V2oEeOHmfUKdmGZvA"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_wLv4QV2oEeOHmfUKdmGZvA" name="Simulation" visibility="public">
+                      <ownedComment xmi:id="_wLwfUF2oEeOHmfUKdmGZvA" annotatedElement="_wLv4QV2oEeOHmfUKdmGZvA">
+                        <body>This&amp;nbsp;constructor&amp;nbsp;initializes&amp;nbsp;the&amp;nbsp;rooms&amp;nbsp;and&amp;nbsp;persons&amp;nbsp;sets&amp;nbsp;as&amp;nbsp;well&amp;nbsp;as&lt;br>creates&amp;nbsp;the&amp;nbsp;persons&amp;nbsp;and&amp;nbsp;rooms&amp;nbsp;programmatically.&amp;nbsp;Moreover&amp;nbsp;it&amp;nbsp;loads&amp;nbsp;the&lt;br>access&amp;nbsp;control&amp;nbsp;rules&amp;nbsp;from&amp;nbsp;a&amp;nbsp;text&amp;nbsp;file.</body>
+                      </ownedComment>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_wLxtcF2oEeOHmfUKdmGZvA" name="run" visibility="public">
+                      <ownedComment xmi:id="_wLyUgF2oEeOHmfUKdmGZvA" annotatedElement="_wLxtcF2oEeOHmfUKdmGZvA">
+                        <body>This&amp;nbsp;method&amp;nbsp;triggers&amp;nbsp;and&amp;nbsp;executes&amp;nbsp;the&amp;nbsp;actual&amp;nbsp;simulation&amp;nbsp;loop.&lt;br>&lt;br>@throws&amp;nbsp;InterruptedException</body>
+                      </ownedComment>
+                      <raisedException xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.InterruptedException%5Bproject%5Eid=dac-simulation%5D$uml.Class"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_wLzioF2oEeOHmfUKdmGZvA" name="render" visibility="public">
+                      <ownedComment xmi:id="_wL0JsF2oEeOHmfUKdmGZvA" annotatedElement="_wLzioF2oEeOHmfUKdmGZvA">
+                        <body>This&amp;nbsp;method&amp;nbsp;displays&amp;nbsp;the&amp;nbsp;current&amp;nbsp;state&amp;nbsp;of&amp;nbsp;all&amp;nbsp;persons&amp;nbsp;and&amp;nbsp;their&amp;nbsp;location&lt;br>(i.e.,&amp;nbsp;the&amp;nbsp;room&amp;nbsp;they&amp;nbsp;are&amp;nbsp;in).&amp;nbsp;Probably,&amp;nbsp;this&amp;nbsp;method&amp;nbsp;shall&amp;nbsp;be&amp;nbsp;overridden&lt;br>in&amp;nbsp;another&amp;nbsp;simulation&amp;nbsp;class&amp;nbsp;to&amp;nbsp;really&amp;nbsp;render&amp;nbsp;the&amp;nbsp;state&amp;nbsp;visually.&amp;nbsp;It&amp;nbsp;does&lt;br>not&amp;nbsp;exactly&amp;nbsp;equal&amp;nbsp;{@link&amp;nbsp;Simulation#toString()},&amp;nbsp;because&amp;nbsp;this&amp;nbsp;would&lt;br>result&amp;nbsp;in&amp;nbsp;an&amp;nbsp;infinite&amp;nbsp;loop&amp;nbsp;due&amp;nbsp;to&amp;nbsp;the&amp;nbsp;bidirectional&amp;nbsp;dependencies&amp;nbsp;between&lt;br>persons&amp;nbsp;and&amp;nbsp;rooms.</body>
+                      </ownedComment>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_wL4bIF2oEeOHmfUKdmGZvA" name="createRooms" visibility="private"/>
+                    <ownedOperation xmi:id="_wL5CMF2oEeOHmfUKdmGZvA" name="createPersons" visibility="private"/>
+                    <ownedOperation xmi:id="_wL6QUF2oEeOHmfUKdmGZvA" name="tryToMovePerson" visibility="private">
+                      <ownedParameter xmi:id="_wL63YF2oEeOHmfUKdmGZvA" name="ReturnParameter" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_wL7ecF2oEeOHmfUKdmGZvA" name="p" type="_wExtkF2oEeOHmfUKdmGZvA">
+                        <eAnnotations xmi:id="_wL8FgF2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                          <details xmi:id="_wL8FgV2oEeOHmfUKdmGZvA" key="final"/>
+                        </eAnnotations>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_wL8Fgl2oEeOHmfUKdmGZvA" name="r" type="_wFI58F2oEeOHmfUKdmGZvA">
+                        <eAnnotations xmi:id="_wL8skF2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                          <details xmi:id="_wL8skV2oEeOHmfUKdmGZvA" key="final"/>
+                        </eAnnotations>
+                      </ownedParameter>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_wL8skl2oEeOHmfUKdmGZvA" name="introduceOrRemoveVIPRandomly" visibility="private"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_wFb04F2oEeOHmfUKdmGZvA" name="LocationBasedAccessControlRulesRewriterTest">
+                    <ownedComment xmi:id="_wFcb8F2oEeOHmfUKdmGZvA" annotatedElement="_wFb04F2oEeOHmfUKdmGZvA">
+                      <body>This&amp;nbsp;JUnit&amp;nbsp;class&amp;nbsp;implements&amp;nbsp;tests&amp;nbsp;for&amp;nbsp;the&amp;nbsp;behavior&amp;nbsp;of&amp;nbsp;the&lt;br>{@link&amp;nbsp;LocationBasedAccessControlRulesRewriter}&amp;nbsp;which&amp;nbsp;plays&amp;nbsp;the&amp;nbsp;role&amp;nbsp;of&amp;nbsp;an&lt;br>adaptation&amp;nbsp;manager&amp;nbsp;in&amp;nbsp;our&amp;nbsp;sample&amp;nbsp;application.&lt;br>&lt;br>@author&amp;nbsp;Mahdi&amp;nbsp;Derakhshanmanesh&amp;nbsp;{manesh@uni-koblenz.de}&lt;br></body>
+                    </ownedComment>
+                    <ownedOperation xmi:id="_wMCMIF2oEeOHmfUKdmGZvA" name="testAdaptRulesForVIPWithIllegalParams" visibility="public"/>
+                    <ownedOperation xmi:id="_wMF2gF2oEeOHmfUKdmGZvA" name="testAdaptRulesForVIPWithoutVIP" visibility="public"/>
+                    <ownedOperation xmi:id="_wMI50F2oEeOHmfUKdmGZvA" name="testAdaptRulesForVIPWithVIP" visibility="public"/>
+                    <ownedOperation xmi:id="_wML9IF2oEeOHmfUKdmGZvA" name="testResetAdaptationToDefault" visibility="public"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_wFgtYV2oEeOHmfUKdmGZvA" name="AccessRulesCodeGeneratorTest">
+                    <ownedComment xmi:id="_wFhUcF2oEeOHmfUKdmGZvA" annotatedElement="_wFgtYV2oEeOHmfUKdmGZvA">
+                      <body>This&amp;nbsp;JUnit&amp;nbsp;class&amp;nbsp;implements&amp;nbsp;tests&amp;nbsp;for&amp;nbsp;the&amp;nbsp;{@link&amp;nbsp;AccessRulesCodeGenerator}.&lt;br>It&amp;nbsp;especially&amp;nbsp;checks&amp;nbsp;if&amp;nbsp;the&amp;nbsp;generated&amp;nbsp;string&amp;nbsp;conforms&amp;nbsp;to&amp;nbsp;the&amp;nbsp;intended&amp;nbsp;output&lt;br>-&amp;nbsp;including&amp;nbsp;formatting.&lt;br>&lt;br>@author&amp;nbsp;Mahdi&amp;nbsp;Derakhshanmanesh&amp;nbsp;{manesh@uni-koblenz.de}&lt;br></body>
+                    </ownedComment>
+                    <ownedAttribute xmi:id="_wMXjUF2oEeOHmfUKdmGZvA" name="NEW_LINE" visibility="public" isLeaf="true" isStatic="true">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <defaultValue xmi:type="uml:LiteralString" xmi:id="_wMYxcF2oEeOHmfUKdmGZvA" value="\n"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:id="_wMZYgF2oEeOHmfUKdmGZvA" name="accessRulesFile" visibility="private" isStatic="true" association="_wMZ_kF2oEeOHmfUKdmGZvA">
+                      <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.io.File%5Bproject%5Eid=dac-simulation%5D$uml.Class"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:id="_wMbNsV2oEeOHmfUKdmGZvA" name="rulesSampleData" visibility="private" type="_wGouwF2oEeOHmfUKdmGZvA" association="_wMdC4F2oEeOHmfUKdmGZvA">
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wMb0wF2oEeOHmfUKdmGZvA" value="*"/>
+                      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wMb0wV2oEeOHmfUKdmGZvA"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:id="_wMeRAV2oEeOHmfUKdmGZvA" name="gen" visibility="private" type="_wFF2oV2oEeOHmfUKdmGZvA" association="_wMffIF2oEeOHmfUKdmGZvA"/>
+                    <ownedOperation xmi:id="_wMgGMV2oEeOHmfUKdmGZvA" name="setUp" visibility="public">
+                      <raisedException xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Exception%5Bproject%5Eid=dac-simulation%5D$uml.Class"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_wMjwkF2oEeOHmfUKdmGZvA" name="testRun" visibility="public"/>
+                    <ownedOperation xmi:id="_wMmM0F2oEeOHmfUKdmGZvA" name="testConstructRulesString" visibility="public"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Package" xmi:id="_wFiikF2oEeOHmfUKdmGZvA" name="adaptation">
+                    <packagedElement xmi:type="uml:Class" xmi:id="_wFiikV2oEeOHmfUKdmGZvA" name="LocationBasedAccessControlRulesRewriter">
+                      <ownedComment xmi:id="_wFjJoF2oEeOHmfUKdmGZvA" annotatedElement="_wFiikV2oEeOHmfUKdmGZvA">
+                        <body>This&amp;nbsp;class&amp;nbsp;implements&amp;nbsp;a&amp;nbsp;simple&amp;nbsp;adaptation&amp;nbsp;manager&amp;nbsp;that&amp;nbsp;changes&amp;nbsp;the&amp;nbsp;access&lt;br>control&amp;nbsp;rules&amp;nbsp;in&amp;nbsp;response&amp;nbsp;to&amp;nbsp;a&amp;nbsp;change&amp;nbsp;event&amp;nbsp;of&amp;nbsp;the&amp;nbsp;rules&amp;nbsp;file.&amp;nbsp;Iff&amp;nbsp;the&amp;nbsp;role&lt;br>&quot;VIP&quot;&amp;nbsp;is&amp;nbsp;used&amp;nbsp;somewhere&amp;nbsp;in&amp;nbsp;the&amp;nbsp;file&amp;nbsp;and&amp;nbsp;iff&amp;nbsp;the&amp;nbsp;location&amp;nbsp;tracking&amp;nbsp;feature&lt;br>(TODO)&amp;nbsp;is&amp;nbsp;enabled,&amp;nbsp;then&amp;nbsp;all&amp;nbsp;existing&amp;nbsp;rules&amp;nbsp;are&amp;nbsp;rewritten&amp;nbsp;such&amp;nbsp;that&amp;nbsp;only&amp;nbsp;the&lt;br>MANAGER&amp;nbsp;and&amp;nbsp;VIP&amp;nbsp;roles&amp;nbsp;are&amp;nbsp;allowed&amp;nbsp;to&amp;nbsp;access&amp;nbsp;the&amp;nbsp;same&amp;nbsp;room(s)&amp;nbsp;as&amp;nbsp;the&amp;nbsp;VIP.&lt;br>&lt;br>This&amp;nbsp;realization&amp;nbsp;changes&amp;nbsp;the&amp;nbsp;script&amp;nbsp;file,&amp;nbsp;i.e.,&amp;nbsp;it&amp;nbsp;reads&amp;nbsp;it&amp;nbsp;and&amp;nbsp;writes&amp;nbsp;it.&amp;nbsp;We&lt;br>do&amp;nbsp;not&amp;nbsp;work&amp;nbsp;with&amp;nbsp;a&amp;nbsp;clearly&amp;nbsp;defined&amp;nbsp;AST&amp;nbsp;of&amp;nbsp;the&amp;nbsp;language,&amp;nbsp;but&amp;nbsp;work&amp;nbsp;with&amp;nbsp;an&lt;br>internal&amp;nbsp;{@link&amp;nbsp;Map}&amp;nbsp;representation&amp;nbsp;(for&amp;nbsp;simplicity).&amp;nbsp;Technically,&amp;nbsp;the&amp;nbsp;script&lt;br>is&amp;nbsp;a&amp;nbsp;model,&amp;nbsp;too.&lt;br>&lt;br>@author&amp;nbsp;Mahdi&amp;nbsp;Derakhshanmanesh&amp;nbsp;{manesh@uni-koblenz.de}&lt;br></body>
+                      </ownedComment>
+                      <ownedOperation xmi:id="_wMpQIF2oEeOHmfUKdmGZvA" name="adaptRulesForVIP" visibility="public" isStatic="true">
+                        <ownedComment xmi:id="_wMqeQF2oEeOHmfUKdmGZvA" annotatedElement="_wMpQIF2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;method&amp;nbsp;changes&amp;nbsp;the&amp;nbsp;content&amp;nbsp;of&amp;nbsp;the&amp;nbsp;passed&amp;nbsp;rules&amp;nbsp;list&amp;nbsp;if&amp;nbsp;it&amp;nbsp;contains&amp;nbsp;a&lt;br>VIP&amp;nbsp;role.&amp;nbsp;In&amp;nbsp;that&amp;nbsp;case,&amp;nbsp;all&amp;nbsp;other&amp;nbsp;roles&amp;nbsp;are&amp;nbsp;adjusted&amp;nbsp;in&amp;nbsp;such&amp;nbsp;a&amp;nbsp;way&amp;nbsp;that&lt;br>only&amp;nbsp;managers&amp;nbsp;may&amp;nbsp;enter&amp;nbsp;the&amp;nbsp;same&amp;nbsp;rooms&amp;nbsp;as&amp;nbsp;the&amp;nbsp;VIP.&amp;nbsp;If&amp;nbsp;managers&amp;nbsp;were&amp;nbsp;not&lt;br>able&amp;nbsp;to&amp;nbsp;enter&amp;nbsp;the&amp;nbsp;room&amp;nbsp;before,&amp;nbsp;then&amp;nbsp;they&amp;nbsp;are&amp;nbsp;granted&amp;nbsp;access&amp;nbsp;to&amp;nbsp;it.&lt;br>&lt;br>@param&amp;nbsp;currentRules&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A&amp;nbsp;{@link&amp;nbsp;Map}&amp;nbsp;(roleName&amp;nbsp;->&amp;nbsp;{roomName}).&lt;br>@param&amp;nbsp;currVIPLocation&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;{@link&amp;nbsp;Room}&amp;nbsp;the&amp;nbsp;VIP&amp;nbsp;is&amp;nbsp;in&amp;nbsp;at&amp;nbsp;the&amp;nbsp;moment.&lt;br>@return&amp;nbsp;&lt;code>true&lt;/code>&amp;nbsp;iff&amp;nbsp;the&amp;nbsp;method&amp;nbsp;changed&amp;nbsp;the&amp;nbsp;passed&amp;nbsp;rules,&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;otherwise&amp;nbsp;&lt;code>false&lt;/code>.</body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wMrsYF2oEeOHmfUKdmGZvA" name="currentRules" type="_wMsTcF2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wMvWwV2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wMvWwl2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wMuIoV2oEeOHmfUKdmGZvA" value="*"/>
+                          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wMuvsF2oEeOHmfUKdmGZvA"/>
+                        </ownedParameter>
+                        <ownedParameter xmi:id="_wMvWw12oEeOHmfUKdmGZvA" name="currVIPLocation" type="_wFI58F2oEeOHmfUKdmGZvA">
+                          <eAnnotations xmi:id="_wMv90F2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                            <details xmi:id="_wMv90V2oEeOHmfUKdmGZvA" key="final"/>
+                          </eAnnotations>
+                        </ownedParameter>
+                      </ownedOperation>
+                      <ownedOperation xmi:id="_wMv90l2oEeOHmfUKdmGZvA" name="resetAdaptationToDefault" visibility="public" isStatic="true">
+                        <ownedComment xmi:id="_wMwk4F2oEeOHmfUKdmGZvA" annotatedElement="_wMv90l2oEeOHmfUKdmGZvA">
+                          <body>This&amp;nbsp;method&amp;nbsp;resets&amp;nbsp;the&amp;nbsp;content&amp;nbsp;of&amp;nbsp;the&amp;nbsp;passed&amp;nbsp;access&amp;nbsp;rules&amp;nbsp;to&amp;nbsp;a&amp;nbsp;default&lt;br>configuration,&amp;nbsp;i.e.,&amp;nbsp;without&amp;nbsp;a&amp;nbsp;VIP.&lt;br>&lt;br>@param&amp;nbsp;rules&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A&amp;nbsp;{@link&amp;nbsp;Map}&amp;nbsp;that&amp;nbsp;represents&amp;nbsp;access&amp;nbsp;rules.&lt;br>@throws&amp;nbsp;IllegalArgumentException&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;rules&amp;nbsp;is&amp;nbsp;&lt;code>null&lt;/code>.&lt;br></body>
+                        </ownedComment>
+                        <ownedParameter xmi:id="_wMxzAF2oEeOHmfUKdmGZvA" name="rules" type="_wMsTcF2oEeOHmfUKdmGZvA">
+                          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wMyaEF2oEeOHmfUKdmGZvA" value="*"/>
+                          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wMyaEV2oEeOHmfUKdmGZvA"/>
+                        </ownedParameter>
+                      </ownedOperation>
+                    </packagedElement>
+                    <packagedElement xmi:type="uml:Interface" xmi:id="_wMsTcF2oEeOHmfUKdmGZvA" name="Set&lt;String>">
+                      <templateBinding xmi:id="_wMs6gV2oEeOHmfUKdmGZvA">
+                        <signature xmi:type="uml:RedefinableTemplateSignature" href="mmi:///#jtsig%5Ename=Set%5Bjbintype%5Ename=java.util.Set%5Bproject%5Eid=dac-simulation%5D%5D$uml.RedefinableTemplateSignature"/>
+                        <parameterSubstitution xmi:id="_wMthkF2oEeOHmfUKdmGZvA" actual="_wMthkV2oEeOHmfUKdmGZvA">
+                          <formal xmi:type="uml:ClassifierTemplateParameter" href="mmi:///#jtp%5Ename=E%5Bjbintype%5Ename=java.util.Set%5Bproject%5Eid=dac-simulation%5D%5D$uml.ClassifierTemplateParameter"/>
+                          <ownedActual xmi:type="uml:Class" xmi:id="_wMthkV2oEeOHmfUKdmGZvA" name="String"/>
+                        </parameterSubstitution>
+                      </templateBinding>
+                    </packagedElement>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Interface" xmi:id="_wGouwF2oEeOHmfUKdmGZvA" name="Set&lt;String>">
+                    <templateBinding xmi:id="_wIo54V2oEeOHmfUKdmGZvA">
+                      <signature xmi:type="uml:RedefinableTemplateSignature" href="mmi:///#jtsig%5Ename=Set%5Bjbintype%5Ename=java.util.Set%5Bproject%5Eid=dac-simulation%5D%5D$uml.RedefinableTemplateSignature"/>
+                      <parameterSubstitution xmi:id="_wIpg8F2oEeOHmfUKdmGZvA" actual="_wIvAgF2oEeOHmfUKdmGZvA">
+                        <formal xmi:type="uml:ClassifierTemplateParameter" href="mmi:///#jtp%5Ename=E%5Bjbintype%5Ename=java.util.Set%5Bproject%5Eid=dac-simulation%5D%5D$uml.ClassifierTemplateParameter"/>
+                        <ownedActual xmi:type="uml:Class" xmi:id="_wIvAgF2oEeOHmfUKdmGZvA" name="String"/>
+                      </parameterSubstitution>
+                    </templateBinding>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association" xmi:id="_wLjrAF2oEeOHmfUKdmGZvA" memberEnd="_wLh10F2oEeOHmfUKdmGZvA _wLjrAV2oEeOHmfUKdmGZvA">
+                    <ownedEnd xmi:id="_wLjrAV2oEeOHmfUKdmGZvA" visibility="private" type="_wFNycF2oEeOHmfUKdmGZvA" association="_wLjrAF2oEeOHmfUKdmGZvA">
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wLkSEV2oEeOHmfUKdmGZvA" value="*"/>
+                      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wLkSEF2oEeOHmfUKdmGZvA"/>
+                    </ownedEnd>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association" xmi:id="_wLmuUF2oEeOHmfUKdmGZvA" memberEnd="_wLk5IF2oEeOHmfUKdmGZvA _wLmuUV2oEeOHmfUKdmGZvA">
+                    <ownedEnd xmi:id="_wLmuUV2oEeOHmfUKdmGZvA" visibility="private" type="_wFNycF2oEeOHmfUKdmGZvA" association="_wLmuUF2oEeOHmfUKdmGZvA">
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wLnVYV2oEeOHmfUKdmGZvA" value="*"/>
+                      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wLnVYF2oEeOHmfUKdmGZvA"/>
+                    </ownedEnd>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association" xmi:id="_wLojgF2oEeOHmfUKdmGZvA" memberEnd="_wLn8cF2oEeOHmfUKdmGZvA _wLpKkF2oEeOHmfUKdmGZvA">
+                    <ownedEnd xmi:id="_wLpKkF2oEeOHmfUKdmGZvA" visibility="private" type="_wFNycF2oEeOHmfUKdmGZvA" association="_wLojgF2oEeOHmfUKdmGZvA">
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wLpxoF2oEeOHmfUKdmGZvA" value="*"/>
+                      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wLpKkV2oEeOHmfUKdmGZvA"/>
+                    </ownedEnd>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association" xmi:id="_wMZ_kF2oEeOHmfUKdmGZvA" memberEnd="_wMZYgF2oEeOHmfUKdmGZvA _wMamoF2oEeOHmfUKdmGZvA">
+                    <ownedEnd xmi:id="_wMamoF2oEeOHmfUKdmGZvA" visibility="private" type="_wFgtYV2oEeOHmfUKdmGZvA" association="_wMZ_kF2oEeOHmfUKdmGZvA">
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wMbNsF2oEeOHmfUKdmGZvA" value="*"/>
+                      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wMamoV2oEeOHmfUKdmGZvA"/>
+                    </ownedEnd>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association" xmi:id="_wMdC4F2oEeOHmfUKdmGZvA" memberEnd="_wMbNsV2oEeOHmfUKdmGZvA _wMdp8F2oEeOHmfUKdmGZvA">
+                    <ownedEnd xmi:id="_wMdp8F2oEeOHmfUKdmGZvA" visibility="private" type="_wFgtYV2oEeOHmfUKdmGZvA" association="_wMdC4F2oEeOHmfUKdmGZvA">
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wMeRAF2oEeOHmfUKdmGZvA" value="*"/>
+                      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wMdp8V2oEeOHmfUKdmGZvA"/>
+                    </ownedEnd>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association" xmi:id="_wMffIF2oEeOHmfUKdmGZvA" memberEnd="_wMeRAV2oEeOHmfUKdmGZvA _wMffIV2oEeOHmfUKdmGZvA">
+                    <ownedEnd xmi:id="_wMffIV2oEeOHmfUKdmGZvA" visibility="private" type="_wFgtYV2oEeOHmfUKdmGZvA" association="_wMffIF2oEeOHmfUKdmGZvA">
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wMgGMF2oEeOHmfUKdmGZvA" value="*"/>
+                      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wMffIl2oEeOHmfUKdmGZvA"/>
+                    </ownedEnd>
+                  </packagedElement>
+                </packagedElement>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_vsctIF2oEeOHmfUKdmGZvA">
+      <eAnnotations xmi:id="_vsiMsF2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_vtoY4F2oEeOHmfUKdmGZvA">
+      <eAnnotations xmi:id="_vt6swF2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_vusI0F2oEeOHmfUKdmGZvA">
+      <eAnnotations xmi:id="_vusI0V2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_IrdAUMmBEdqBcN1R6EvWUw?Deployment/Deployment?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_wIkocF2oEeOHmfUKdmGZvA">
+      <eAnnotations xmi:id="_wIkocV2oEeOHmfUKdmGZvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://TRANSFORM_ANNOTATION_PROFILES/JavaTransformProfile.epx#_znahgE3YEd-tPpJR7OP4Bg?JavaTransformation5.0/JavaTransformation50?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://TRANSFORM_ANNOTATION_PROFILES/JavaTransformProfile.epx#_TQfqgOcaEdi4LptNXGi2fQ?JavaTransformation5.0?"/>
+    </profileApplication>
+  </uml:Package>
+  <Default:Documentation xmi:id="_wE_wAF2oEeOHmfUKdmGZvA" base_Comment="_wE8FoF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wFCMQF2oEeOHmfUKdmGZvA" base_Comment="_wFBlMF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wFEBcF2oEeOHmfUKdmGZvA" base_Comment="_wFDaYF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wFFPkF2oEeOHmfUKdmGZvA" base_Comment="_wFEogF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wFHEwF2oEeOHmfUKdmGZvA" base_Comment="_wFGdsF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wFIS4F2oEeOHmfUKdmGZvA" base_Comment="_wFHr0F2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wFJhAF2oEeOHmfUKdmGZvA" base_Comment="_wFI58V2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wFKvIV2oEeOHmfUKdmGZvA" base_Comment="_wFKvIF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wFPAkF2oEeOHmfUKdmGZvA" base_Comment="_wFOZgF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wFQOsF2oEeOHmfUKdmGZvA" base_Comment="_wFPnoF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wFRc0F2oEeOHmfUKdmGZvA" base_Comment="_wFQ1wF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wFZ_sV2oEeOHmfUKdmGZvA" base_Comment="_wFZ_sF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wFcb8V2oEeOHmfUKdmGZvA" base_Comment="_wFcb8F2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wFe4MV2oEeOHmfUKdmGZvA" base_Comment="_wFe4MF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wFh7gF2oEeOHmfUKdmGZvA" base_Comment="_wFhUcF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wFjwsF2oEeOHmfUKdmGZvA" base_Comment="_wFjJoF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wFmM8F2oEeOHmfUKdmGZvA" base_Comment="_wFll4V2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wF4g0V2oEeOHmfUKdmGZvA" base_Comment="_wF4g0F2oEeOHmfUKdmGZvA"/>
+  <JavaTransformation50:JavaGenericInstance xmi:id="_wIo54F2oEeOHmfUKdmGZvA" base_Interface="_wGouwF2oEeOHmfUKdmGZvA"/>
+  <JavaTransformation50:JavaTypeRedirect xmi:id="_wIyD0F2oEeOHmfUKdmGZvA" base_Type="_wIvAgF2oEeOHmfUKdmGZvA">
+    <redirectTo xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </JavaTransformation50:JavaTypeRedirect>
+  <JavaTransformation50:JavaCollection2 xmi:id="_wI1uMF2oEeOHmfUKdmGZvA" collectionType="java.util.Map" base_TypedElement="_wF5H4F2oEeOHmfUKdmGZvA">
+    <keyType xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </JavaTransformation50:JavaCollection2>
+  <JavaTransformation50:JavaCollection2 xmi:id="_wJDwoF2oEeOHmfUKdmGZvA" collectionType="java.util.Map" base_TypedElement="_wJCigV2oEeOHmfUKdmGZvA">
+    <keyType xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </JavaTransformation50:JavaCollection2>
+  <JavaTransformation50:JavaGenericInstance xmi:id="_wJU2YF2oEeOHmfUKdmGZvA" base_Interface="_wJToQF2oEeOHmfUKdmGZvA"/>
+  <JavaTransformation50:JavaTypeRedirect xmi:id="_wJWEgF2oEeOHmfUKdmGZvA" base_Type="_wJVdcV2oEeOHmfUKdmGZvA">
+    <redirectTo xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </JavaTransformation50:JavaTypeRedirect>
+  <JavaTransformation50:JavaCollection2 xmi:id="_wJXSoF2oEeOHmfUKdmGZvA" collectionType="java.util.Map" base_TypedElement="_wJTBMF2oEeOHmfUKdmGZvA">
+    <keyType xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </JavaTransformation50:JavaCollection2>
+  <JavaTransformation50:JavaCollection2 xmi:id="_wJaV8F2oEeOHmfUKdmGZvA" collectionType="java.util.Map" base_TypedElement="_wJZH0F2oEeOHmfUKdmGZvA">
+    <keyType xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </JavaTransformation50:JavaCollection2>
+  <Default:Documentation xmi:id="_wJiRwF2oEeOHmfUKdmGZvA" base_Comment="_wJhqsF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wJqNkF2oEeOHmfUKdmGZvA" base_Comment="_wJpmgF2oEeOHmfUKdmGZvA"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_wJsp0F2oEeOHmfUKdmGZvA" collectionType="java.util.Set" base_TypedElement="_wJrbsF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wJt38V2oEeOHmfUKdmGZvA" base_Comment="_wJt38F2oEeOHmfUKdmGZvA"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_wJvtIF2oEeOHmfUKdmGZvA" collectionType="java.util.Set" base_TypedElement="_wJufAF2oEeOHmfUKdmGZvA"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_wJyJYF2oEeOHmfUKdmGZvA" collectionType="java.util.Set" base_TypedElement="_wJw7Ql2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wJzXgF2oEeOHmfUKdmGZvA" base_Comment="_wJywcF2oEeOHmfUKdmGZvA"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_wJ2a0F2oEeOHmfUKdmGZvA" collectionType="java.util.Set" base_TypedElement="_wJ1Msl2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wJ9vkF2oEeOHmfUKdmGZvA" base_Comment="_wJ9IgF2oEeOHmfUKdmGZvA"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_wKAL0F2oEeOHmfUKdmGZvA" collectionType="java.util.Set" base_TypedElement="_wJ-9sF2oEeOHmfUKdmGZvA"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_wKEdQF2oEeOHmfUKdmGZvA" collectionType="java.util.Set" base_TypedElement="_wKDPIF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wKxn4F2oEeOHmfUKdmGZvA" base_Comment="_wKxA0F2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wKzdEF2oEeOHmfUKdmGZvA" base_Comment="_wKy2A12oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wK15UF2oEeOHmfUKdmGZvA" base_Comment="_wK1SQF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wK5jsV2oEeOHmfUKdmGZvA" base_Comment="_wK5jsF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wK8nAF2oEeOHmfUKdmGZvA" base_Comment="_wK7_8F2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wK_DQF2oEeOHmfUKdmGZvA" base_Comment="_wK-cMl2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wLBfgV2oEeOHmfUKdmGZvA" base_Comment="_wLBfgF2oEeOHmfUKdmGZvA"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_wLEi0F2oEeOHmfUKdmGZvA" collectionType="java.util.Set" base_TypedElement="_wLDUsl2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wLFw8F2oEeOHmfUKdmGZvA" base_Comment="_wLFJ4V2oEeOHmfUKdmGZvA"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_wLI0QF2oEeOHmfUKdmGZvA" collectionType="java.util.Set" base_TypedElement="_wLHmIl2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wLKCYF2oEeOHmfUKdmGZvA" base_Comment="_wLJbUF2oEeOHmfUKdmGZvA"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_wLMeoF2oEeOHmfUKdmGZvA" collectionType="java.util.Set" base_TypedElement="_wLLQgF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wLVokV2oEeOHmfUKdmGZvA" base_Comment="_wLVokF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wLYr4F2oEeOHmfUKdmGZvA" base_Comment="_wLYE0F2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wLahEF2oEeOHmfUKdmGZvA" base_Comment="_wLZ6AF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wLcWQF2oEeOHmfUKdmGZvA" base_Comment="_wLbvMV2oEeOHmfUKdmGZvA"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_wLeLcF2oEeOHmfUKdmGZvA" collectionType="java.util.Map" base_TypedElement="_wLc9UF2oEeOHmfUKdmGZvA">
+    <keyType xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </JavaTransformation50:JavaCollection2>
+  <Default:Documentation xmi:id="_wLgAoF2oEeOHmfUKdmGZvA" base_Comment="_wLfZkF2oEeOHmfUKdmGZvA"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_wLjD8F2oEeOHmfUKdmGZvA" collectionType="java.util.Set" base_TypedElement="_wLh10F2oEeOHmfUKdmGZvA"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_wLlgMF2oEeOHmfUKdmGZvA" collectionType="java.util.Set" base_TypedElement="_wLk5IF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wLq_wF2oEeOHmfUKdmGZvA" base_Comment="_wLqYsV2oEeOHmfUKdmGZvA"/>
+  <JavaTransformation50:JavaArray xmi:id="_wLv4QF2oEeOHmfUKdmGZvA" base_TypedElement="_wLsN4F2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wLxGYF2oEeOHmfUKdmGZvA" base_Comment="_wLwfUF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wLy7kF2oEeOHmfUKdmGZvA" base_Comment="_wLyUgF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wL0wwF2oEeOHmfUKdmGZvA" base_Comment="_wL0JsF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wMA-AF2oEeOHmfUKdmGZvA" base_Comment="_wMAW8V2oEeOHmfUKdmGZvA"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_wMcb0F2oEeOHmfUKdmGZvA" collectionType="java.util.Map" base_TypedElement="_wMbNsV2oEeOHmfUKdmGZvA">
+    <keyType xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </JavaTransformation50:JavaCollection2>
+  <Default:Documentation xmi:id="_wMqeQV2oEeOHmfUKdmGZvA" base_Comment="_wMqeQF2oEeOHmfUKdmGZvA"/>
+  <JavaTransformation50:JavaGenericInstance xmi:id="_wMs6gF2oEeOHmfUKdmGZvA" base_Interface="_wMsTcF2oEeOHmfUKdmGZvA"/>
+  <JavaTransformation50:JavaTypeRedirect xmi:id="_wMuIoF2oEeOHmfUKdmGZvA" base_Type="_wMthkV2oEeOHmfUKdmGZvA">
+    <redirectTo xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </JavaTransformation50:JavaTypeRedirect>
+  <JavaTransformation50:JavaCollection2 xmi:id="_wMvWwF2oEeOHmfUKdmGZvA" collectionType="java.util.Map" base_TypedElement="_wMrsYF2oEeOHmfUKdmGZvA">
+    <keyType xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </JavaTransformation50:JavaCollection2>
+  <Default:Documentation xmi:id="_wMxL8F2oEeOHmfUKdmGZvA" base_Comment="_wMwk4F2oEeOHmfUKdmGZvA"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_wMzBIF2oEeOHmfUKdmGZvA" collectionType="java.util.Map" base_TypedElement="_wMxzAF2oEeOHmfUKdmGZvA">
+    <keyType xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </JavaTransformation50:JavaCollection2>
+  <JavaTransformation50:JavaCollection2 xmi:id="_wM4gsF2oEeOHmfUKdmGZvA" collectionType="java.util.Map" base_TypedElement="_wM35oF2oEeOHmfUKdmGZvA">
+    <keyType xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </JavaTransformation50:JavaCollection2>
+  <JavaTransformation50:JavaCollection2 xmi:id="_wM9ZMF2oEeOHmfUKdmGZvA" collectionType="java.util.Map" base_TypedElement="_wM8LEl2oEeOHmfUKdmGZvA">
+    <keyType xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </JavaTransformation50:JavaCollection2>
+  <Default:Documentation xmi:id="_wM-nUF2oEeOHmfUKdmGZvA" base_Comment="_wM-AQF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wNBDkF2oEeOHmfUKdmGZvA" base_Comment="_wNAcgF2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wNEG4F2oEeOHmfUKdmGZvA" base_Comment="_wNDf0F2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wNMCsF2oEeOHmfUKdmGZvA" base_Comment="_wNLboF2oEeOHmfUKdmGZvA"/>
+  <JavaTransformation50:JavaTypeParameter xmi:id="_wNRiQF2oEeOHmfUKdmGZvA" extends="_wFll4F2oEeOHmfUKdmGZvA" base_TemplateParameter="_wNN34F2oEeOHmfUKdmGZvA"/>
+  <Default:Documentation xmi:id="_wNSwYF2oEeOHmfUKdmGZvA" base_Comment="_wNSJUF2oEeOHmfUKdmGZvA"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_wNVzsF2oEeOHmfUKdmGZvA" base_TypedElement="_wNUlkl2oEeOHmfUKdmGZvA"/>
+</xmi:XMI>
