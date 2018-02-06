@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Dac-command-line
+Bundle-SymbolicName: dac-command-line;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: de.uni_koblenz.ist.manesh.phd.dac_command_line.Activator
+Import-Package: de.uni_koblenz.ist.manesh.phd.dac_config,
+ de.uni_koblenz.ist.manesh.phd.dac_config.port.function,
+ de.uni_koblenz.ist.manesh.phd.dac_controller.ports.manage,
+ org.osgi.framework;version="1.3.0",
+ org.osgi.util.tracker;version="1.5.1"
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.swt,
+ dac-swt-host,
+ dac-meta-model
+Export-Package: de.uni_koblenz.ist.manesh.phd.dac_command_line

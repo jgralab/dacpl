@@ -1,0 +1,7 @@
+sensor S1 detects person P5
+sensor S3 detects person P2
+sensor S4 detects person P1 delay 5000
+sensor S6 detects person P8 delay 5500
+break
+sensor S8 detects person P3 delay 300
+sensor S1 detects person P4 delay 500

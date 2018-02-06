@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Dac-rule-interpreter
+Bundle-SymbolicName: dac-controller;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: de.uni_koblenz.ist.manesh.phd.dac_controller.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: junit.framework;version="4.11.0",
+ org.junit;version="4.11.0",
+ org.osgi.framework;version="1.7.0"
+Bundle-ActivationPolicy: lazy
+Require-Bundle: dac-meta-model;bundle-version="1.0.0",
+ dac-event-bus,
+ dac-model-repository,
+ moco-runtime;bundle-version="1.0.0"
+Export-Package: de.uni_koblenz.ist.manesh.phd.dac_controller.ports.manage

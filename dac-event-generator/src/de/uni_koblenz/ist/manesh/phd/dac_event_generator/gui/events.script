@@ -1,0 +1,15 @@
+sensor R1DS detects person P2
+sensor R1S1 detects person P2 delay 1500
+sensor R1S1 detects person P3 delay 3000
+sensor R1DS detects person P1 delay 4500
+sensor R1S1 detects person P1 delay 6000
+break
+sensor HallwayS1 detects person P1
+sensor HallwayS1 detects person P2
+sensor HallwayS1 detects person P3
+break
+sensor R1DS detects person P2
+sensor R1S1 detects person P2 delay 1500
+sensor R1S1 detects person P3 delay 3000
+sensor R1DS detects person P1 delay 4500
+break
